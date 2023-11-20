@@ -1,0 +1,57 @@
+---
+title: "Curriculum Vitae"
+output: pdf_document
+---
+
+# Persoonlijke gegevens
+
+- **Naam:** Voornaam Achternaam
+- **Adres:** Straatnaam 123, 1234 AB Plaats
+- **Telefoon:** 06 12345678
+- **E-mail:** voorbeeld@email.com
+- **LinkedIn:** [linkedin.com/voorbeeld](https://www.linkedin.com/voorbeeld)
+- **Geboortedatum:** 1 januari 1990
+
+# Profielschets
+
+Een beknopte samenvatting van je vaardigheden, ervaring en doelen.
+
+# Opleidingen
+
+## Bachelor in [Naam van de Studie]
+- **Universiteit:** Universiteit X, Plaats
+- **Jaar:** 20XX - 20XX
+
+## Master in [Naam van de Studie]
+- **Universiteit:** Universiteit Y, Plaats
+- **Jaar:** 20XX - 20XX
+
+# Werkervaring
+
+## Functie: [Functietitel]
+- **Bedrijf:** Bedrijfsnaam, Plaats
+- **Periode:** Maand Jaar - Maand Jaar
+- **Taken:**
+  - Beschrijf hier je verantwoordelijkheden en prestaties.
+
+## Functie: [Functietitel]
+- **Bedrijf:** Bedrijfsnaam, Plaats
+- **Periode:** Maand Jaar - Maand Jaar
+- **Taken:**
+  - Beschrijf hier je verantwoordelijkheden en prestaties.
+
+# Vaardigheden
+
+- **Programmeertalen:** bijv. R, Python, etc.
+- **Software:** bijv. Microsoft Office, Adobe Suite, etc.
+- **Talen:** bijv. Nederlands (moedertaal), Engels (vloeiend), etc.
+
+# Projecten
+
+- **Projectnaam:** Korte beschrijving van het project en je bijdrage.
+- **Periode:** Maand Jaar - Maand Jaar
+- **Technologieën/tools gebruikt:** bijv. Github, SQL, etc.
+
+# Certificeringen
+
+- **Naam van 
