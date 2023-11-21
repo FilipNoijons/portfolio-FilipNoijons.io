@@ -1,0 +1,28 @@
+```{}
+Where do I want to be in ~2 years time?
+How am I doing now with respect to this goal?
+What would be the next skill to learn?
+```` 
+
+```{}
+Binnen 2 jaar zou ik klaar willen zijn met mijn studie Life science waarbij ik gespecialiseerd ben in de richting zoology met vakken inbegrepen zoals tumorcelbiologie en neuroscience. Met dit in gedachten ben ik gaan kijken naar stage plekken in Nederland. 
+```
+
+
+Een paar Nederlandse organisaties/instellingen waar ik op uit kwam waren:
+```
+```{}
+1. Netherlands Cancer institute(NKI-antoni van leeuwenhoek):
+
+NKI is een kankeronderzoekinstituut in Nederland. Ik zou hier stage kunnen lopen binnen de afdeling bioinformatics of oncogenomics. Hierbij zou je genomics-data kunnen analyseren die afkomstig zijn van kankercellen. Het identificeren van mutaties in kanker-DNA is leidend en de programmas die worden gebruikt zijn bijvoorbeeld: R/Bioconductor voor differentiële genexpressieanalyse, BWA of Bowtie voor DNA-alignments, en GATK voor variant calling. Ze maken vaak gebruik van Python voor gegevensverwerking en visualisatie.
+```
+
+```{}
+2.Erasmus MC- Transcriptomics in tumorcelbiologie:
+
+Bij het Erasmus MC, specifiek binnen afdelingen die zich richten op tumorbiologie, zou je kunnen werken aan transcriptomics-data van tumorcellen. Hierbij worden data science-technieken zoals differentiële genexpressieanalyse gebruikt om te begrijpen welke genen actief zijn in verschillende stadia van tumorgroei, wat cruciaal is voor het ontwikkelen van gerichte therapieën. Voor transcriptomics-analyse worden tools zoals DESeq2 of edgeR gebruikt voor differentiële genexpressieanalyse. STAR of HISAT2 kunnen worden ingezet voor RNA-seq data-alignments. Vaak wordt R gebruikt in combinatie met andere programma's voor visualisatie en analyse.
+
+```{}
+Quantib:
+Quantib is gespecialiseerd in medische beeldvorming en AI voor neurologische aandoeningen, zoals neurodegeneratieve ziekten. Ze maken gebruik van Python voor het ontwikkelen van AI-algoritmen die neuroimaging-data analyseren om vroege detectie en behandeling van ziekten mogelijk te maken.Quantib richt zich op het combineren van geavanceerde medische beeldvorming met AI-gedreven analyse om de klinische besluitvorming te verbeteren. Hun programma's, waaronder Quantib Brain, maken gebruik van Python en AI-technologieën om radiologen te ondersteunen bij het sneller en nauwkeuriger diagnostice
+```
