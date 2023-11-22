@@ -1,50 +1,58 @@
 ---
 title: "Curriculum Vitae"
-output: pdf_document
+output: HTML
 ---
 
 # Persoonlijke gegevens
 
-- **Naam:** Voornaam Achternaam
-- **Adres:** Straatnaam 123, 1234 AB Plaats
-- **Telefoon:** 06 12345678
-- **E-mail:** voorbeeld@email.com
-- **LinkedIn:** [linkedin.com/voorbeeld](https://www.linkedin.com/voorbeeld)
-- **Geboortedatum:** 1 januari 1990
+- **Naam:** Filip Bastiaan Noijons
+- **Adres:** Fruinplantsoen 98, 3571PV
+- **Telefoon:** 06 81940552
+- **E-mail:** FilipNoyons@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
+- **Geboortedatum:** 8 augustus 2000
 
 # Profielschets
 
-Een beknopte samenvatting van je vaardigheden, ervaring en doelen.
+"Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
 
 # Opleidingen
 
-## Bachelor in [Naam van de Studie]
-- **Universiteit:** Universiteit X, Plaats
-- **Jaar:** 20XX - 20XX
+## Bachelor in Life Sciences
+- **Hogeschool:** HU, Utrecht
+- **Jaar:** 2020 - 2025
 
-## Master in [Naam van de Studie]
-- **Universiteit:** Universiteit Y, Plaats
-- **Jaar:** 20XX - 20XX
+## Minor Data science for biology
+- **Hogeschool:** HU, utrecht 
+- **Jaar:** 2023
 
-# Werkervaring
-
-## Functie: [Functietitel]
-- **Bedrijf:** Bedrijfsnaam, Plaats
-- **Periode:** Maand Jaar - Maand Jaar
-- **Taken:**
-  - Beschrijf hier je verantwoordelijkheden en prestaties.
-
-## Functie: [Functietitel]
-- **Bedrijf:** Bedrijfsnaam, Plaats
-- **Periode:** Maand Jaar - Maand Jaar
-- **Taken:**
-  - Beschrijf hier je verantwoordelijkheden en prestaties.
+## HAVO (hoger algemeen voortgezet onderwijs)
+- **School:** Spinoza lyceum, Amsterdam
+- **Jaar:** 2023
 
 # Vaardigheden
 
-- **Programmeertalen:** bijv. R, Python, etc.
-- **Software:** bijv. Microsoft Office, Adobe Suite, etc.
-- **Talen:** bijv. Nederlands (moedertaal), Engels (vloeiend), etc.
+- **Programmeertalen:** Rstudio, Bash
+- **Tools:** Github, SQL.
+- **Talen:** Nederlands, Engels
+
+
+# Werkervaring
+
+## Freelance
+- **Bedrijf:** Temper & staffyou, Utrecht
+- **Periode:** Mei - september 2023
+  
+
+## Functie: Keukenhulp
+- **Bedrijf:** Marleenkookt, Amsterdam
+- **Periode:** januari - juni 2019
+  
+## Vrijwilligerswerk
+- **Bedrijf:** Marine conservation Philipines, Zamboanguita
+- **Periode:** september - December 2019 
+- **Taken:** Substrate surveys of the coral reefs along the southern coast of Negros island, mangrove planting and beach clean-ups 
+
 
 # Projecten
 
@@ -54,4 +62,5 @@ Een beknopte samenvatting van je vaardigheden, ervaring en doelen.
 
 # Certificeringen
 
-- **Naam van 
+- **Naam van Certificaat:** Uitgegeven door: Organisatie, Jaar
+
