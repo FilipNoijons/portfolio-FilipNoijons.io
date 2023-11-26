@@ -1,0 +1,44 @@
+---
+title: "Solicitatie brief"
+author: "Filip"
+date: "2023-11-26"
+output: html_document
+---
+
+
+
+---
+
+Filip Noyons  
+Fruinplantsoen 98  
++31681940552  
+FilipNoyons@gmail.com  
+
+26 november 2023  
+
+Antoni van Leeuwenhoek Ziekenhuis  
+T.a.v. Reuven Agami Oncogenomics Research Group  
+Plesmanlaan 121  
+1066 CX Amsterdam  
+
+Betreft: Sollicitatie voor een stageplek binnen de Reuven Agami Oncogenomics Research Group  
+
+Geachte heer/mevrouw,  
+
+Graag wil ik mijn grote interesse in oncogenomics benadrukken en mijn enthousiasme uiten voor een stageplek binnen de Reuven Agami Oncogenomics Research Group van het Antoni van Leeuwenhoek ziekenhuis. Momenteel ben ik op zoek naar een stageplaats om mijn kennis verder te ontwikkelen en ervaring op te doen in dit vakgebied.  
+
+Met mijn HBO-opleiding Life Sciences met de richting Datasciences for biology heb ik een sterke interesse ontwikkeld in de moleculaire aspecten van kanker. Door zelfstudie heb ik basiskennis opgedaan in oncogenomics en ben ik vertrouwd geraakt met RNA- en DNA-sequencing. Ik heb gewerkt met programma's zoals Rstudio, Bash, Python?.
+
+Tijdens mijn zelfstudie werd ik gegrepen door de complexiteit van genomics-data-analyse en de mogelijkheid om nieuwe inzichten te verkrijgen over kanker. Mijn motivatie is gegroeid om bij te dragen aan dit belangrijke onderzoeksveld door het ontdekken van nieuwe behandelmogelijkheden.
+
+Wat mij bijzonder aanspreekt aan de Reuven Agami Oncogenomics Research Group is jullie innovatieve werk in het identificeren van zwakke plekken in kanker. Ik bewonder jullie inzet en baanbrekende resultaten in dit onderzoek.
+
+Met mijn passie voor oncogenomics, mijn leergierigheid en mijn vastberadenheid om bij te dragen aan kankeronderzoek, ben ik ervan overtuigd dat ik waardevol kan zijn als stagiair binnen jullie onderzoeksgroep.
+
+Ik kijk er enorm naar uit om mijn enthousiasme en leergierigheid te delen met de Reuven Agami Oncogenomics Research Group. Graag zou ik de mogelijkheid krijgen om mijn motivatie en ervaring persoonlijk toe te lichten tijdens een gesprek.
+
+Met vriendelijke groet,
+
+Filip Noyons  
+
+---
