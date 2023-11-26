@@ -28,7 +28,7 @@ output: HTML
 
 ## HAVO (hoger algemeen voortgezet onderwijs)
 - **School:** Spinoza lyceum, Amsterdam
-- **Jaar:** 2023
+- **Jaar:** 2012 - 2017
 
 # Vaardigheden
 
@@ -56,9 +56,15 @@ output: HTML
 
 # Projecten
 
-- **Projectnaam:** Korte beschrijving van het project en je bijdrage.
-- **Periode:** Maand Jaar - Maand Jaar
-- **Technologieën/tools gebruikt:** bijv. Github, SQL, etc.
+- **Projectnaam:**  Transdifferentiatie met ONECUT1
+- **Periode:** november 2023
+- **Programmeertalen/tools gebruikt:** Bash, Rstudio
+
+# Projecten
+
+- **Projectnaam:**  slootwater/metagenomics
+- **Periode:** november 2023
+- **Programmeertalen/tools gebruikt:** Bash, Rstudio, github, sql.
 
 # Certificeringen
 

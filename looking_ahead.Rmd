@@ -14,7 +14,45 @@ Een Nederlandse organisatie/instelling waar ik op uit kwam was:
 ```{}
 Netherlands Cancer institute(NKI-antoni van leeuwenhoek):
 
-NKI is een kankeronderzoekinstituut in Nederland. Ik zou hier stage kunnen lopen binnen de afdeling bioinformatics of oncogenomics. Hierbij zou je genomics-data kunnen analyseren die afkomstig zijn van kankercellen. Het identificeren van mutaties in kanker-DNA is leidend en de programmas die worden gebruikt zijn bijvoorbeeld: R/Bioconductor voor differentiële genexpressieanalyse, BWA of Bowtie voor DNA-alignments, en GATK voor variant calling. Ze maken vaak gebruik van Python voor gegevensverwerking en visualisatie.
+NKI is een kankeronderzoekinstituut in Nederland. Ik zou hier stage kunnen lopen binnen de afdeling bioinformatics of oncogenomics. Hierbij zou ik genomics-data kunnen analyseren die afkomstig zijn van kankercellen. Het identificeren van mutaties in kanker-DNA is leidend en de programmas die worden gebruikt zijn bijvoorbeeld: R/Bioconductor voor differentiële genexpressieanalyse, BWA of Bowtie voor DNA-alignments, en GATK voor variant calling. Ze maken vaak gebruik van Python voor gegevensverwerking en visualisatie.
 ```
 
+  
+```{}
+Het gehele concept rondom metagenomics is te groot om in 40 uur vol te maken. Ik moet mij hierdoor richten op 1 bepaald onderdeel uit de oncegenomics workflow. De stapgewijze workflow bestaat uit:
 
+- Quality Assessment
+- Aligning Sequences
+- Identifying Variants
+- Annotating Variants
+- Visualization of Next-Generation Sequencing
+
+Veel van dit soort onderwerpen zijn al aan bod gekomen in de daur1 en daur2 cursussen. Hier een planning om de 40 uur opte vullen:
+
+### Week 1: Kennismaking en Fundamenten (8 uur)
+- **Dag 1-2 (4 uur):** Introductie in oncogenomics en literatuurstudie.
+- **Dag 3-4 (4 uur):** Verkenning van beschikbare datasets en bronnen voor genomics-data in kankeronderzoek.
+
+### Week 2: Basisvaardigheden (10 uur)
+- **Dag 1-2 (4 uur):** Basisbeginselen van genomics-data: DNA-sequencing, RNA-sequencing, en hun rol in oncogenomics.
+- **Dag 3 (2 uur):** Introductie tot bioinformatica-tools voor variant calling en genexpressie-analyse.
+- **Dag 4-5 (4 uur):** Praktische oefeningen met openbare datasets en hands-on ervaring met tools zoals GATK, SAMtools, of TCGA data.
+
+### Week 3: Diepere Analyse (9 uur)
+- **Dag 1-2 (4 uur):** Verdieping in variant calling: kwaliteitscontrole, filtratie en interpretatie van genetische varianten.
+- **Dag 3 (2 uur):** Analyse van differentiële genexpressie en identificatie van biomarkers.
+- **Dag 4-5 (3 uur):** Toepassen van bioinformatica-tools voor pathway-analyse en functionele annotatie.
+
+### Week 4: Verdieping en Toepassing (8 uur)
+- **Dag 1-2 (4 uur):** Integratie van genomics-data en visualisatie: gebruik van Python voor visualisatie en interpretatie.
+- **Dag 3 (2 uur):** Begrip van biologische implicaties van gevonden genetische veranderingen.
+- **Dag 4-5 (4 uur):** Het opzetten van een kleine analyse op een eigen dataset of een publieke dataset, gevolgd door interpretatie en rapportage van resultaten.
+
+### Reflectie en Evaluatie (4 uur)
+- **Reflectie (2 uur):** Terugblik op de geleerde vaardigheden, identificatie van sterke punten en gebieden voor verdere groei.
+- **Evaluatie en Portfolio-opbouw (2 uur):** Documenteer je leerproces, de toegepaste methoden en de resultaten in een portfolio.
+
+Dit plan biedt een gestructureerde aanpak om in 35 uur een degelijke basis te leggen voor oncogenomics-analyse, waarbij je zowel theoretische kennis als praktische ervaring opdoet met relevante bioinformatica-tools. 
+
+
+De afdeling waar ik in geinteresserd in ben heet Reuven agami groep en opereert binnen het antoni van leeuwenhoek. Zij houden zich bezig met het identificeren van nieuwe zwakke punten in cellen die gebruikt kunnen worden voor behandelingen. Hiervoor ontwikkelen ze nieuwe tools die kijken naar de genen en het DNA dat niet codeert voor eiwitten. Zij gebruiken deze tools om zwakke plekken in kanker te vinden. Belangrijke onderwerpen zijn het maken van eiwitten en het onderzoek naar stukken DNA die geen instructies voor eiwitten bevatten. Ik zou mij dan meer bezig houden met het analyseren van de data en de tools gebruiken die worden voorgeschreven.
