@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-output: HTML
+output: html_document
 ---
 
 # Persoonlijke gegevens
@@ -60,13 +60,10 @@ output: HTML
 - **Periode:** november 2023
 - **Programmeertalen/tools gebruikt:** Bash, Rstudio
 
-# Projecten
 
 - **Projectnaam:**  slootwater/metagenomics
 - **Periode:** november 2023
 - **Programmeertalen/tools gebruikt:** Bash, Rstudio, github, sql.
 
-# Certificeringen
 
-- **Naam van Certificaat:** Uitgegeven door: Organisatie, Jaar
 

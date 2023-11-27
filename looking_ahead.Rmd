@@ -56,3 +56,5 @@ Dit plan biedt een gestructureerde aanpak om in 35 uur een degelijke basis te le
 
 
 De afdeling waar ik in geinteresserd in ben heet Reuven agami groep en opereert binnen het antoni van leeuwenhoek. Zij houden zich bezig met het identificeren van nieuwe zwakke punten in cellen die gebruikt kunnen worden voor behandelingen. Hiervoor ontwikkelen ze nieuwe tools die kijken naar de genen en het DNA dat niet codeert voor eiwitten. Zij gebruiken deze tools om zwakke plekken in kanker te vinden. Belangrijke onderwerpen zijn het maken van eiwitten en het onderzoek naar stukken DNA die geen instructies voor eiwitten bevatten. Ik zou mij dan meer bezig houden met het analyseren van de data en de tools gebruiken die worden voorgeschreven.
+
+Ik ga mij vooral bezig houden met variant calling in het vakgebied van onco genomics.
