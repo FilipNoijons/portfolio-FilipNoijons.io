@@ -17,15 +17,7 @@ Netherlands Cancer institute(NKI-antoni van leeuwenhoek):
 NKI is een kankeronderzoekinstituut in Nederland. Ik zou hier stage kunnen lopen binnen de afdeling bioinformatics of oncogenomics. Hierbij zou ik genomics-data kunnen analyseren die afkomstig zijn van kankercellen. Het identificeren van mutaties in kanker-DNA is leidend en de programmas die worden gebruikt zijn bijvoorbeeld: R/Bioconductor voor differentiële genexpressieanalyse, BWA of Bowtie voor DNA-alignments, en GATK voor variant calling. Ze maken vaak gebruik van Python voor gegevensverwerking en visualisatie.
 ```
 
-  
-```{}
-Het gehele concept rondom metagenomics is te groot om in 40 uur vol te maken. Ik moet mij hierdoor richten op 1 bepaald onderdeel uit de oncegenomics workflow. De stapgewijze workflow bestaat uit:
-
-- Quality Assessment
-- Aligning Sequences
-- Identifying Variants
-- Annotating Variants
-- Visualization of Next-Generation Sequencing
+```{}  
 
 Veel van dit soort onderwerpen zijn al aan bod gekomen in de daur1 en daur2 cursussen. Hier een planning om de 40 uur opte vullen:
 
@@ -57,19 +49,11 @@ Zeker, ik zal de planning consolideren naar een tijdsspanne van 32 uur:
   - Variant Annotation: Annoteren van de geïdentificeerde varianten.
   - Toevoegen van filtratie en annotatie aan de pipeline.
 
-Deze gecomprimeerde planning stelt je in staat om de essentiële stappen van whole genome sequencing en variant calling binnen 32 uur te doorlopen, met een focus op een efficiënte en gestroomlijnde uitvoering van elke stap en het integreren van deze stappen in een werkende pipeline.
+
 
 
 De afdeling waar ik in geinteresserd in ben heet Reuven agami groep en opereert binnen het antoni van leeuwenhoek. Zij houden zich bezig met het identificeren van nieuwe zwakke punten in cellen die gebruikt kunnen worden voor behandelingen. Hiervoor ontwikkelen ze nieuwe tools die kijken naar de genen en het DNA dat niet codeert voor eiwitten. Zij gebruiken deze tools om zwakke plekken in kanker te vinden. Belangrijke onderwerpen zijn het maken van eiwitten en het onderzoek naar stukken DNA die geen instructies voor eiwitten bevatten. Ik zou mij dan meer bezig houden met het analyseren van de data en de tools gebruiken die worden voorgeschreven.
 
 Ik ga mij vooral bezig houden met variant calling in het vakgebied van onco genomics.
 
-- Kanker files
-
-- Patient files
-
-- Allignment files
-- input file bamfile
-whole genome sequencing 
-Vcr file met varianten = output
-Top 
+```
