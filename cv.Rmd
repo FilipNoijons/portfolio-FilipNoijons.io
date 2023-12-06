@@ -14,8 +14,10 @@ output: html_document
 
 # Profielschets
 
-"Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
 
+"Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Tijdens mijn studie heb ik ook vele uren in het lab doorgebracht, waar ik praktische ervaring heb opgedaan. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
+
+---
 # Opleidingen
 
 ## Bachelor in Life Sciences
@@ -33,7 +35,7 @@ output: html_document
 # Vaardigheden
 
 - **Programmeertalen:** Rstudio, Bash
-- **Tools:** Github, SQL.
+- **Tools:** Github, SQL, python
 - **Talen:** Nederlands, Engels
 
 
@@ -64,6 +66,8 @@ output: html_document
 - **Projectnaam:**  slootwater/metagenomics
 - **Periode:** november 2023
 - **Programmeertalen/tools gebruikt:** Bash, Rstudio, github, sql.
+
+
 
 
 
