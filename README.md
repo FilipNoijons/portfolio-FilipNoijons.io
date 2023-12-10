@@ -20,6 +20,7 @@ Ik heb een professioneel CV gemaakt als onderdeel van mijn portfolio met behulp 
 
 ## 2. Toekomstplanning
 Ik heb mijn doelen voor de komende ~2 jaar gedefinieerd, mijn vooruitgang geëvalueerd en de volgende vaardigheid in data science/bio-informatica geïdentificeerd om te leren. Mijn plan en de eerste stappen heb ik gedocumenteerd in mijn portfolio.
+(https://github.com/FilipNoijons/portfolio/blob/main/looking_ahead.Rmd)
 
 ## 3. GitHub Pages Portfolio
 Mijn professionele portfolio is succesvol gecreëerd met behulp van GitHub Pages. Het ziet er verzorgd uit voor toekomstige sollicitaties en is toegevoegd aan mijn cijfer.
