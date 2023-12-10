@@ -1,0 +1,63 @@
+---
+title: "Peer review: Short Term Methylphenidate Treatment Does Not Increase Myocardial Injury in the Ischemic Rat Heart"
+author: "Sarah L. SEELEY,"
+date: "2023-12-10"
+output: html_document
+---
+
+## Artikel referentie: 
+Seeley, S. L., D’Souza, M. S., Stoops, T. S., & Rorabaugh, B. R. (2020). Short term methylphenidate treatment does not increase myocardial injury in the ischemic rat heart. Physiological Research, 803–812. https://doi.org/10.33549/physiolres.934368
+
+
+```{R}
+# Kies een CRAN mirror
+chooseCRANmirror(ind = 1) 
+
+# Installeer de knitr en dplyr packages
+install.packages("knitr")
+install.packages("dplyr")
+
+# Laden van de knitr library
+library(knitr)
+
+# Creëer een dataframe met de gegeven criteria en definities
+criteria <- data.frame(
+  "Transparency_Criteria" = c(
+    "Study Purpose",
+    "Data Availability Statement",
+    "Data Location",
+    "Study Location",
+    "Author Review",
+    "Ethics Statement",
+    "Funding Statement",
+    "Code Availability"
+  ),
+  
+  "Response_Type" = c(
+    "1",
+    "0",
+    "0, data location in unknown",
+    "1, exact location is known",
+    "1",
+    "1",
+    "0",
+    "0"
+  )
+)
+
+# Tabel maken met kable()
+kable(criteria)
+
+
+```
+
+## Peer review score verklaring
+De gegeven score is binary, 0 of 1. De uiteindelijke score voor dit artikel is een 4/8. In de bovenstaande tabel heb ik mijn criterea op een rijtje gezet. Ik zal hieronder alle criterea langslopen. Er is een duidelijk study purpose aanwezig. Het doel is namelijk om te onderzoeken of kortdurende blootstelling aan methylfenidaat de myocardiale schade tijdens een ischemisch incident verergert. Dit staat op duidelijk aangegeven in de introductie. Bij punt 2 kijken we naar de data availability, deze is totaal niet aangegeven in het artikel. Ook is er geen apart kopje met data erin verwerkt. De data location is ook niet bekend. Wel is bekend waar de studie locatie is en waar de gebruikte ratten voor dit experiment vandaan komen. De contact informatie van de verschillende auteurs kwam ruimschoots aan bod. Ze zijn makkelijk te vinden en hebben allemaal meerdere artikelen geschreven. Voor het ethical concerns onderdeel is er een apart hoofdstuk geschreven. Ook is er duidelijk beschreven over de ethiek van de ratten en hoe ze ermee aan het werk zijn gegaan. Helaas is er bij dit artikel geen funding statement aangegeven. Terwijl de kans er is dat deze wel aanwezig is. Ook is er geen code beschikbaar die ze hebben bijgevoegd terwijl het artikel inmiddels een paar jaar oud is. 
+
+## rapport op vindingen uit het artikel
+De algemene doelstelling van het onderzoek was om te bepalen of kortdurende blootstelling aan methylfenidaat de omvang van myocardiale schade tijdens een ischemische aanval vergroot. 
+
+De korte methoden omvatten de toediening van methylfenidaat (5 mg/kg/dag) aan mannelijke en vrouwelijke ratten gedurende 10 dagen. Op de elfde dag werden de harten aan ischemie blootgesteld op een Langendorff geïsoleerd hartapparaat. Cardiale contractiele functie werd gecontroleerd, en de myocardiale schade werd geëvalueerd door kleuring met triphenyltetrazoliumchloride.
+
+De resultaten toonden aan dat methylfenidaat geen invloed had op de infarctgrootte of het post-ischemische herstel van de contractiele functie van het hart bij mannelijke of vrouwelijke ratten.
+
