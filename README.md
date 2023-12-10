@@ -16,6 +16,7 @@ Je vindt hier een variëteit aan opdrachten - van het opstellen van een CV tot h
 
 ## 1. CV Start
 Ik heb een professioneel CV gemaakt als onderdeel van mijn portfolio met behulp van GitHub voor versiebeheer. Mijn focus lag op een volledige en professionele presentatie voor toekomstige bio-informatica stages of banen.
+()
 
 ## 2. Toekomstplanning
 Ik heb mijn doelen voor de komende ~2 jaar gedefinieerd, mijn vooruitgang geëvalueerd en de volgende vaardigheid in data science/bio-informatica geïdentificeerd om te leren. Mijn plan en de eerste stappen heb ik gedocumenteerd in mijn portfolio.
@@ -31,6 +32,7 @@ Ik heb een grondige analyse uitgevoerd op het C. elegans experiment, de stappen 
 
 ## 6. Open Peer Review
 Het beoordelen van de reproduceerbaarheid van een wetenschappelijk artikel volgens verschillende openbare criteria is succesvol uitgevoerd. Ik heb dit toegepast op een openbaar toegankelijk artikel.
+(https://github.com/FilipNoijons/portfolio/blob/main/Peer_review.Rmd)
 
 ## 7. Relationele Databases
 Ik heb met succes flu-, dengue- en gapminder-data geladen in aparte dataframes in R. Deze zijn geconverteerd naar een "tidy" formaat, opgeslagen als CSV- en RDS-bestanden en toegevoegd aan een PostgreSQL-database.
