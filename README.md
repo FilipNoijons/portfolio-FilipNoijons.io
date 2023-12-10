@@ -16,7 +16,7 @@ Je vindt hier een variëteit aan opdrachten - van het opstellen van een CV tot h
 
 ## 1. CV Start
 Ik heb een professioneel CV gemaakt als onderdeel van mijn portfolio met behulp van GitHub voor versiebeheer. Mijn focus lag op een volledige en professionele presentatie voor toekomstige bio-informatica stages of banen.
-()
+(cv.Rmd)
 
 ## 2. Toekomstplanning
 Ik heb mijn doelen voor de komende ~2 jaar gedefinieerd, mijn vooruitgang geëvalueerd en de volgende vaardigheid in data science/bio-informatica geïdentificeerd om te leren. Mijn plan en de eerste stappen heb ik gedocumenteerd in mijn portfolio.
