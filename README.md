@@ -27,7 +27,7 @@ Mijn professionele portfolio is succesvol gecreëerd met behulp van GitHub Pages
 Ik heb met succes de principes van Guerrilla Analytics toegepast op mijn bestaande projecten, mijn werkplek georganiseerd en samengewerkt met labpartners voor een specifiek project.
 
 ## 5. C. elegans Experiment
-Ik heb een grondige analyse uitgevoerd op het C. elegans experiment, de stappen gedocumenteerd en deze toegevoegd aan mijn portfolio. (c_elegans.Rmd)
+Ik heb een grondige analyse uitgevoerd op het C. elegans experiment, de stappen gedocumenteerd en deze toegevoegd aan mijn portfolio. (https://github.com/FilipNoijons/portfolio/blob/main/c_elegans.Rmd)
 
 ## 6. Open Peer Review
 Het beoordelen van de reproduceerbaarheid van een wetenschappelijk artikel volgens verschillende openbare criteria is succesvol uitgevoerd. Ik heb dit toegepast op een openbaar toegankelijk artikel.
