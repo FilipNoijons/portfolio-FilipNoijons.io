@@ -1,3 +1,4 @@
+welkom-op-mijn-bookdown
 cv
 persoonlijke-gegevens
 profielschets
@@ -20,7 +21,9 @@ dag-2-data-voorbereiding-en-preprocessing-8-uur
 dag-3-variant-calling-8-uur
 dag-4-variant-filtratie-en-annotation-8-uur
 waar-ik-stage-zou-gaan-lopen
-c.elegans
+c.elegans-plate-experiment
+laad-de-juiste-bibliotheek
+de-gemaakte-scatterplot
 eigen-analyse-stappen
 stap-1-data-verkenning-en-samenvattende-statistieken
 stap-2-concentratie-respons-relatie
@@ -29,8 +32,11 @@ stap-4-hypothesetoetsing
 stap-5-modelopstelling-en-validatie
 stap-6-interpretatie-en-conclusie
 stap-7-extra-overwegingen
+de-genormaliseerde-data-voor-de-control-negative
 peer-review
 artikel-referentie
+laden-van-juiste-packages
+maken-van-tabel-voor-peer-review-scores
 peer-review-score-verklaring
 rapport-op-vindingen-uit-het-artikel
 relationele-databases

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter4 C.elegans plate experiment | Relationele databases</title>
+  <meta name="description" content="Dit is mijn portofolio bookdown" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter4 C.elegans plate experiment | Relationele databases" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Dit is mijn portofolio bookdown" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter4 C.elegans plate experiment | Relationele databases" />
+  
+  <meta name="twitter:description" content="Dit is mijn portofolio bookdown" />
+  
+
+<meta name="author" content="filip" />
+
+
+<meta name="date" content="2023-12-10" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="looking-ahead.html"/>
+<link rel="next" href="peer-review.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welkom op mijn bookdown</a></li>
+<li class="chapter" data-level="2" data-path="cv.html"><a href="cv.html"><i class="fa fa-check"></i><b>2</b> CV</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="cv.html"><a href="cv.html#persoonlijke-gegevens"><i class="fa fa-check"></i><b>2.1</b> Persoonlijke gegevens</a></li>
+<li class="chapter" data-level="2.2" data-path="cv.html"><a href="cv.html#profielschets"><i class="fa fa-check"></i><b>2.2</b> Profielschets</a></li>
+<li class="chapter" data-level="2.3" data-path="cv.html"><a href="cv.html#opleidingen"><i class="fa fa-check"></i><b>2.3</b> Opleidingen</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="cv.html"><a href="cv.html#bachelor-in-life-sciences"><i class="fa fa-check"></i><b>2.3.1</b> Bachelor in Life Sciences</a></li>
+<li class="chapter" data-level="2.3.2" data-path="cv.html"><a href="cv.html#minor-data-science-for-biology"><i class="fa fa-check"></i><b>2.3.2</b> Minor Data science for biology</a></li>
+<li class="chapter" data-level="2.3.3" data-path="cv.html"><a href="cv.html#havo-hoger-algemeen-voortgezet-onderwijs"><i class="fa fa-check"></i><b>2.3.3</b> HAVO (hoger algemeen voortgezet onderwijs)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="cv.html"><a href="cv.html#vaardigheden"><i class="fa fa-check"></i><b>2.4</b> Vaardigheden</a></li>
+<li class="chapter" data-level="2.5" data-path="cv.html"><a href="cv.html#werkervaring"><i class="fa fa-check"></i><b>2.5</b> Werkervaring</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="cv.html"><a href="cv.html#freelance"><i class="fa fa-check"></i><b>2.5.1</b> Freelance</a></li>
+<li class="chapter" data-level="2.5.2" data-path="cv.html"><a href="cv.html#functie-keukenhulp"><i class="fa fa-check"></i><b>2.5.2</b> Functie: Keukenhulp</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="cv.html"><a href="cv.html#vrijwilligerswerk"><i class="fa fa-check"></i><b>2.6</b> Vrijwilligerswerk</a></li>
+<li class="chapter" data-level="2.7" data-path="cv.html"><a href="cv.html#projecten"><i class="fa fa-check"></i><b>2.7</b> Projecten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="looking-ahead.html"><a href="looking-ahead.html"><i class="fa fa-check"></i><b>3</b> Looking ahead</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-wil-ik-zijn-binnen-2-jaar"><i class="fa fa-check"></i><b>3.1</b> Waar wil ik zijn binnen 2 jaar?</a></li>
+<li class="chapter" data-level="3.2" data-path="looking-ahead.html"><a href="looking-ahead.html#een-nederlandse-organisatieinstelling-waar-ik-op-uit-kwam-was"><i class="fa fa-check"></i><b>3.2</b> Een Nederlandse organisatie/instelling waar ik op uit kwam was:</a></li>
+<li class="chapter" data-level="3.3" data-path="looking-ahead.html"><a href="looking-ahead.html#de-planning-om-mijn-vrije-opdracht-in-te-vullen"><i class="fa fa-check"></i><b>3.3</b> De planning om mijn vrije opdracht in te vullen</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-1-introductie-en-data-verzamelen-8-uur"><i class="fa fa-check"></i><b>3.3.1</b> Dag 1: Introductie en Data Verzamelen (8 uur)</a></li>
+<li class="chapter" data-level="3.3.2" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-2-data-voorbereiding-en-preprocessing-8-uur"><i class="fa fa-check"></i><b>3.3.2</b> Dag 2: Data Voorbereiding en Preprocessing (8 uur)</a></li>
+<li class="chapter" data-level="3.3.3" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-3-variant-calling-8-uur"><i class="fa fa-check"></i><b>3.3.3</b> Dag 3: Variant Calling (8 uur)</a></li>
+<li class="chapter" data-level="3.3.4" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-4-variant-filtratie-en-annotation-8-uur"><i class="fa fa-check"></i><b>3.3.4</b> Dag 4: Variant Filtratie en Annotation (8 uur)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-ik-stage-zou-gaan-lopen"><i class="fa fa-check"></i><b>3.4</b> Waar ik stage zou gaan lopen</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html"><i class="fa fa-check"></i><b>4</b> C.elegans plate experiment</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#laad-de-juiste-bibliotheek"><i class="fa fa-check"></i><b>4.0.1</b> Laad de juiste bibliotheek</a></li>
+<li class="chapter" data-level="4.1" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#de-gemaakte-scatterplot"><i class="fa fa-check"></i><b>4.1</b> De gemaakte scatterplot</a></li>
+<li class="chapter" data-level="4.2" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#eigen-analyse-stappen"><i class="fa fa-check"></i><b>4.2</b> Eigen analyse stappen</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-1-data-verkenning-en-samenvattende-statistieken"><i class="fa fa-check"></i><b>4.2.1</b> Stap 1: Data Verkenning en Samenvattende Statistieken</a></li>
+<li class="chapter" data-level="4.2.2" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-2-concentratie-respons-relatie"><i class="fa fa-check"></i><b>4.2.2</b> Stap 2: Concentratie-Respons Relatie</a></li>
+<li class="chapter" data-level="4.2.3" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-3-statistische-analyse"><i class="fa fa-check"></i><b>4.2.3</b> Stap 3: Statistische Analyse</a></li>
+<li class="chapter" data-level="4.2.4" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-4-hypothesetoetsing"><i class="fa fa-check"></i><b>4.2.4</b> Stap 4: Hypothesetoetsing</a></li>
+<li class="chapter" data-level="4.2.5" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-5-modelopstelling-en-validatie"><i class="fa fa-check"></i><b>4.2.5</b> Stap 5: Modelopstelling en Validatie</a></li>
+<li class="chapter" data-level="4.2.6" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-6-interpretatie-en-conclusie"><i class="fa fa-check"></i><b>4.2.6</b> Stap 6: Interpretatie en Conclusie</a></li>
+<li class="chapter" data-level="4.2.7" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#stap-7-extra-overwegingen"><i class="fa fa-check"></i><b>4.2.7</b> Stap 7: Extra Overwegingen</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="c.elegans-plate-experiment.html"><a href="c.elegans-plate-experiment.html#de-genormaliseerde-data-voor-de-control-negative"><i class="fa fa-check"></i><b>4.3</b> De genormaliseerde data voor de control negative</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="peer-review.html"><a href="peer-review.html"><i class="fa fa-check"></i><b>5</b> Peer review</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="peer-review.html"><a href="peer-review.html#artikel-referentie"><i class="fa fa-check"></i><b>5.1</b> Artikel referentie:</a></li>
+<li class="chapter" data-level="5.2" data-path="peer-review.html"><a href="peer-review.html#laden-van-juiste-packages"><i class="fa fa-check"></i><b>5.2</b> Laden van juiste packages</a></li>
+<li class="chapter" data-level="5.3" data-path="peer-review.html"><a href="peer-review.html#maken-van-tabel-voor-peer-review-scores"><i class="fa fa-check"></i><b>5.3</b> Maken van tabel voor peer review scores</a></li>
+<li class="chapter" data-level="5.4" data-path="peer-review.html"><a href="peer-review.html#peer-review-score-verklaring"><i class="fa fa-check"></i><b>5.4</b> Peer review score verklaring</a></li>
+<li class="chapter" data-level="5.5" data-path="peer-review.html"><a href="peer-review.html#rapport-op-vindingen-uit-het-artikel"><i class="fa fa-check"></i><b>5.5</b> rapport op vindingen uit het artikel</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="relationele-databases.html"><a href="relationele-databases.html"><i class="fa fa-check"></i><b>6</b> Relationele databases</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Relationele databases</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="c.elegans-plate-experiment" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter4</span> C.elegans plate experiment<a href="c.elegans-plate-experiment.html#c.elegans-plate-experiment" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="laad-de-juiste-bibliotheek" class="section level3 hasAnchor" number="4.0.1">
+<h3><span class="header-section-number">4.0.1</span> Laad de juiste bibliotheek<a href="c.elegans-plate-experiment.html#laad-de-juiste-bibliotheek" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="c.elegans-plate-experiment.html#cb5-1" tabindex="-1"></a><span class="co"># Laad de juiste library</span></span>
+<span id="cb5-2"><a href="c.elegans-plate-experiment.html#cb5-2" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="c.elegans-plate-experiment.html#cb6-1" tabindex="-1"></a><span class="co"># Lees het excel file in</span></span>
+<span id="cb6-2"><a href="c.elegans-plate-experiment.html#cb6-2" tabindex="-1"></a>C_elegans_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx&quot;</span>)</span>
+<span id="cb6-3"><a href="c.elegans-plate-experiment.html#cb6-3" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="c.elegans-plate-experiment.html#cb6-4" tabindex="-1"></a><span class="co"># Structuur van de data</span></span>
+<span id="cb6-5"><a href="c.elegans-plate-experiment.html#cb6-5" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data)</span></code></pre></div>
+<pre><code>## tibble [360 × 34] (S3: tbl_df/tbl/data.frame)
+##  $ plateRow           : logi [1:360] NA NA NA NA NA NA ...
+##  $ plateColumn        : logi [1:360] NA NA NA NA NA NA ...
+##  $ vialNr             : num [1:360] 1 1 1 1 1 2 2 2 2 2 ...
+##  $ dropCode           : chr [1:360] &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot; ...
+##  $ expType            : chr [1:360] &quot;experiment&quot; &quot;experiment&quot; &quot;experiment&quot; &quot;experiment&quot; ...
+##  $ expReplicate       : num [1:360] 3 3 3 3 3 3 3 3 3 3 ...
+##  $ expName            : chr [1:360] &quot;CE.LIQ.FLOW.062&quot; &quot;CE.LIQ.FLOW.062&quot; &quot;CE.LIQ.FLOW.062&quot; &quot;CE.LIQ.FLOW.062&quot; ...
+##  $ expDate            : POSIXct[1:360], format: &quot;2020-11-30&quot; ...
+##  $ expResearcher      : chr [1:360] &quot;Sergio Reijnders - Ellis Herder&quot; &quot;Sergio Reijnders - Ellis Herder&quot; &quot;Sergio Reijnders - Ellis Herder&quot; &quot;Sergio Reijnders - Ellis Herder&quot; ...
+##  $ expTime            : num [1:360] 68 68 68 68 68 68 68 68 68 68 ...
+##  $ expUnit            : chr [1:360] &quot;hour&quot; &quot;hour&quot; &quot;hour&quot; &quot;hour&quot; ...
+##  $ expVolumeCounted   : num [1:360] 50 50 50 50 50 50 50 50 50 50 ...
+##  $ RawData            : num [1:360] 44 37 45 47 41 35 41 36 40 38 ...
+##  $ compCASRN          : chr [1:360] &quot;24157-81-1&quot; &quot;24157-81-1&quot; &quot;24157-81-1&quot; &quot;24157-81-1&quot; ...
+##  $ compName           : chr [1:360] &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; ...
+##  $ compConcentration  : chr [1:360] &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; ...
+##  $ compUnit           : chr [1:360] &quot;nM&quot; &quot;nM&quot; &quot;nM&quot; &quot;nM&quot; ...
+##  $ compDelivery       : chr [1:360] &quot;Liquid&quot; &quot;Liquid&quot; &quot;Liquid&quot; &quot;Liquid&quot; ...
+##  $ compVehicle        : chr [1:360] &quot;controlVehicleA&quot; &quot;controlVehicleA&quot; &quot;controlVehicleA&quot; &quot;controlVehicleA&quot; ...
+##  $ elegansStrain      : chr [1:360] &quot;N2&quot; &quot;N2&quot; &quot;N2&quot; &quot;N2&quot; ...
+##  $ elegansInput       : num [1:360] 25 25 25 25 25 25 25 25 25 25 ...
+##  $ bacterialStrain    : chr [1:360] &quot;OP50&quot; &quot;OP50&quot; &quot;OP50&quot; &quot;OP50&quot; ...
+##  $ bacterialTreatment : chr [1:360] &quot;heated&quot; &quot;heated&quot; &quot;heated&quot; &quot;heated&quot; ...
+##  $ bacterialOD600     : num [1:360] 0.743 0.743 0.743 0.743 0.743 0.743 0.743 0.743 0.743 0.743 ...
+##  $ bacterialConcX     : num [1:360] 8 8 8 8 8 8 8 8 8 8 ...
+##  $ bacterialVolume    : num [1:360] 300 300 300 300 300 300 300 300 300 300 ...
+##  $ bacterialVolUnit   : chr [1:360] &quot;ul&quot; &quot;ul&quot; &quot;ul&quot; &quot;ul&quot; ...
+##  $ incubationVial     : chr [1:360] &quot;1,5 glass vial&quot; &quot;1,5 glass vial&quot; &quot;1,5 glass vial&quot; &quot;1,5 glass vial&quot; ...
+##  $ incubationVolume   : num [1:360] 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 ...
+##  $ incubationUnit     : chr [1:360] &quot;ul&quot; &quot;ul&quot; &quot;ul&quot; &quot;ul&quot; ...
+##  $ incubationMethod   : chr [1:360] &quot;rockroll&quot; &quot;rockroll&quot; &quot;rockroll&quot; &quot;rockroll&quot; ...
+##  $ incubationRPM      : num [1:360] 35 35 35 35 35 35 35 35 35 35 ...
+##  $ bubble             : logi [1:360] NA NA NA NA NA NA ...
+##  $ incubateTemperature: num [1:360] 20 20 20 20 20 20 20 20 20 20 ...</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="c.elegans-plate-experiment.html#cb8-1" tabindex="-1"></a><span class="co"># Eerste rijen van de data </span></span>
+<span id="cb8-2"><a href="c.elegans-plate-experiment.html#cb8-2" tabindex="-1"></a><span class="fu">head</span>(C_elegans_data)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 34
+##   plateRow plateColumn vialNr dropCode expType expReplicate expName
+##   &lt;lgl&gt;    &lt;lgl&gt;        &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt;  
+## 1 NA       NA               1 a        experi…            3 CE.LIQ…
+## 2 NA       NA               1 b        experi…            3 CE.LIQ…
+## 3 NA       NA               1 c        experi…            3 CE.LIQ…
+## 4 NA       NA               1 d        experi…            3 CE.LIQ…
+## 5 NA       NA               1 e        experi…            3 CE.LIQ…
+## 6 NA       NA               2 a        experi…            3 CE.LIQ…
+## # ℹ 27 more variables: expDate &lt;dttm&gt;, expResearcher &lt;chr&gt;,
+## #   expTime &lt;dbl&gt;, expUnit &lt;chr&gt;, expVolumeCounted &lt;dbl&gt;,
+## #   RawData &lt;dbl&gt;, compCASRN &lt;chr&gt;, compName &lt;chr&gt;,
+## #   compConcentration &lt;chr&gt;, compUnit &lt;chr&gt;, compDelivery &lt;chr&gt;,
+## #   compVehicle &lt;chr&gt;, elegansStrain &lt;chr&gt;, elegansInput &lt;dbl&gt;,
+## #   bacterialStrain &lt;chr&gt;, bacterialTreatment &lt;chr&gt;,
+## #   bacterialOD600 &lt;dbl&gt;, bacterialConcX &lt;dbl&gt;, …</code></pre>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="c.elegans-plate-experiment.html#cb10-1" tabindex="-1"></a><span class="co"># Check de verschillende kolommen van de data</span></span>
+<span id="cb10-2"><a href="c.elegans-plate-experiment.html#cb10-2" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data[<span class="fu">c</span>(<span class="st">&quot;RawData&quot;</span>, <span class="st">&quot;compName&quot;</span>, <span class="st">&quot;compConcentration&quot;</span>)])</span></code></pre></div>
+<pre><code>## tibble [360 × 3] (S3: tbl_df/tbl/data.frame)
+##  $ RawData          : num [1:360] 44 37 45 47 41 35 41 36 40 38 ...
+##  $ compName         : chr [1:360] &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; ...
+##  $ compConcentration: chr [1:360] &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; ...</code></pre>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="c.elegans-plate-experiment.html#cb12-1" tabindex="-1"></a><span class="co"># Check de data typen van de kolommen</span></span>
+<span id="cb12-2"><a href="c.elegans-plate-experiment.html#cb12-2" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>RawData)</span></code></pre></div>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="c.elegans-plate-experiment.html#cb14-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compName)</span></code></pre></div>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="c.elegans-plate-experiment.html#cb16-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="c.elegans-plate-experiment.html#cb18-1" tabindex="-1"></a><span class="co"># verander &#39;compConcentration&#39; van character naar numeric</span></span>
+<span id="cb18-2"><a href="c.elegans-plate-experiment.html#cb18-2" tabindex="-1"></a>C_elegans_data<span class="sc">$</span>compConcentration <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
+<pre><code>## Warning: NAs introduced by coercion</code></pre>
+</div>
+<div id="de-gemaakte-scatterplot" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> De gemaakte scatterplot<a href="c.elegans-plate-experiment.html#de-gemaakte-scatterplot" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="c.elegans-plate-experiment.html#cb20-1" tabindex="-1"></a><span class="co"># Laad de package ggplot</span></span>
+<span id="cb20-2"><a href="c.elegans-plate-experiment.html#cb20-2" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb20-3"><a href="c.elegans-plate-experiment.html#cb20-3" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="c.elegans-plate-experiment.html#cb20-4" tabindex="-1"></a><span class="co"># Maak de scatterplot met de  log10 transformatie en jitter</span></span>
+<span id="cb20-5"><a href="c.elegans-plate-experiment.html#cb20-5" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
+<span id="cb20-6"><a href="c.elegans-plate-experiment.html#cb20-6" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb20-7"><a href="c.elegans-plate-experiment.html#cb20-7" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb20-8"><a href="c.elegans-plate-experiment.html#cb20-8" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
+<span id="cb20-9"><a href="c.elegans-plate-experiment.html#cb20-9" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
+<span id="cb20-10"><a href="c.elegans-plate-experiment.html#cb20-10" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
+<span id="cb20-11"><a href="c.elegans-plate-experiment.html#cb20-11" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Scatterplot van Nakomelingentelling </span><span class="sc">\n</span><span class="st"> per Concentratie van Verbinding&quot;</span></span>
+<span id="cb20-12"><a href="c.elegans-plate-experiment.html#cb20-12" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb20-13"><a href="c.elegans-plate-experiment.html#cb20-13" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration), <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
+<span id="cb20-14"><a href="c.elegans-plate-experiment.html#cb20-14" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
+<pre><code>## Warning: Transformation introduced infinite values in continuous
+## x-axis</code></pre>
+<pre><code>## Warning: Removed 6 rows containing missing values
+## (`geom_point()`).</code></pre>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en ethanol de positieve controle.</p>
+</div>
+<div id="eigen-analyse-stappen" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Eigen analyse stappen<a href="c.elegans-plate-experiment.html#eigen-analyse-stappen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="stap-1-data-verkenning-en-samenvattende-statistieken" class="section level3 hasAnchor" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Stap 1: Data Verkenning en Samenvattende Statistieken<a href="c.elegans-plate-experiment.html#stap-1-data-verkenning-en-samenvattende-statistieken" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Samenvattende Statistieken</strong>: Bereken beschrijvende statistieken (gemiddelde, mediaan, standaardafwijking, etc.) van het aantal nakomelingen (<code>RawData</code>) voor elke verbinding bij verschillende concentraties.</li>
+<li><strong>Visuele Inspectie</strong>: Maak visualisaties (bijv. boxplots, lijngrafieken) om de verdeling van het aantal nakomelingen over verschillende concentraties en verbindingen te observeren.</li>
+</ul>
+</div>
+<div id="stap-2-concentratie-respons-relatie" class="section level3 hasAnchor" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Stap 2: Concentratie-Respons Relatie<a href="c.elegans-plate-experiment.html#stap-2-concentratie-respons-relatie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Dosis-Respons Curve</strong>: Construeer dosis-responscurves voor elke verbinding door het aantal nakomelingen uit te zetten tegen concentraties.</li>
+<li><strong>IC50 Schatting</strong>: Gebruik geschikte modellen of methoden (bijv. niet-lineaire regressie) om de IC50-waarden voor elke verbinding te schatten. Vergelijk de IC50-waarden tussen verbindingen om verschillen in potentie te bepalen.</li>
+</ul>
+</div>
+<div id="stap-3-statistische-analyse" class="section level3 hasAnchor" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Stap 3: Statistische Analyse<a href="c.elegans-plate-experiment.html#stap-3-statistische-analyse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>ANOVA of Regressie</strong>: Voer statistische tests uit (bijv. ANOVA, lineaire of niet-lineaire regressie) om de relatie tussen concentraties en aantal nakomelingen te beoordelen.</li>
+<li><strong>Vergelijkende Analyse</strong>: Vergelijk statistisch het effect van concentraties op het aantal nakomelingen tussen verschillende verbindingen.</li>
+</ul>
+</div>
+<div id="stap-4-hypothesetoetsing" class="section level3 hasAnchor" number="4.2.4">
+<h3><span class="header-section-number">4.2.4</span> Stap 4: Hypothesetoetsing<a href="c.elegans-plate-experiment.html#stap-4-hypothesetoetsing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Nulhypothese</strong>: Formuleer nul- en alternatieve hypothesen om te testen of er een significant effect is van concentratie op het aantal nakomelingen en of verschillende verbindingen verschillende reacties vertonen.</li>
+<li><strong>Hypothesetoetsing</strong>: Voer hypothesetesten uit (bijv. t-toetsen, ANOVA) om de significantie van verschillen in aantal nakomelingen over concentraties en tussen verbindingen te evalueren.</li>
+</ul>
+</div>
+<div id="stap-5-modelopstelling-en-validatie" class="section level3 hasAnchor" number="4.2.5">
+<h3><span class="header-section-number">4.2.5</span> Stap 5: Modelopstelling en Validatie<a href="c.elegans-plate-experiment.html#stap-5-modelopstelling-en-validatie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Modelselectie</strong>: Pas passende concentratie-responsmodellen toe (bijv. Hill-vergelijking, sigmoïdale curve) op de data en valideer de kwaliteit van de pasvorm.</li>
+<li><strong>Cross-Validatie</strong>: Indien van toepassing, voer cross-validatie uit om de voorspellende kracht van de modellen te beoordelen.</li>
+</ul>
+</div>
+<div id="stap-6-interpretatie-en-conclusie" class="section level3 hasAnchor" number="4.2.6">
+<h3><span class="header-section-number">4.2.6</span> Stap 6: Interpretatie en Conclusie<a href="c.elegans-plate-experiment.html#stap-6-interpretatie-en-conclusie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Interpreteer Resultaten</strong>: Analyseer de bevindingen van statistische analyses, concentratie-responscurves en IC50-schattingen.</li>
+<li><strong>Conclusie</strong>: Trek conclusies over het effect van concentraties op het aantal nakomelingen en eventuele verschillen tussen verbindingen. Bespreek de implicaties en beperkingen van de studie.</li>
+</ul>
+</div>
+<div id="stap-7-extra-overwegingen" class="section level3 hasAnchor" number="4.2.7">
+<h3><span class="header-section-number">4.2.7</span> Stap 7: Extra Overwegingen<a href="c.elegans-plate-experiment.html#stap-7-extra-overwegingen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Controle Vergelijking</strong>: Vergelijk resultaten met controlegroepen (indien beschikbaar) om het basiseffect te begrijpen.</li>
+<li><strong>Data-transformatie</strong>: Indien nodig, pas data-transformaties toe (bijv. normalisatie) voor een betere analyse en interpretatie.</li>
+<li><strong>Controle van Aannames</strong>: Valideer aannames van gebruikte statistische tests en modellen.</li>
+</ul>
+<p>Door deze stappen systematisch te volgen, kan een grondige analyse worden uitgevoerd om te bepalen of verschillende concentraties een effect hebben op het aantal nakomelingen en of er verschillende concentratie-responsrelaties bestaan tussen verschillende verbindingen in het experiment.</p>
+</div>
+</div>
+<div id="de-genormaliseerde-data-voor-de-control-negative" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> De genormaliseerde data voor de control negative<a href="c.elegans-plate-experiment.html#de-genormaliseerde-data-voor-de-control-negative" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="c.elegans-plate-experiment.html#cb23-1" tabindex="-1"></a><span class="co"># Calculate the mean of controlNegative</span></span>
+<span id="cb23-2"><a href="c.elegans-plate-experiment.html#cb23-2" tabindex="-1"></a>mean_controlNegative <span class="ot">&lt;-</span> <span class="fu">mean</span>(C_elegans_data<span class="sc">$</span>controlNegative, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb23-3"><a href="c.elegans-plate-experiment.html#cb23-3" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="c.elegans-plate-experiment.html#cb23-4" tabindex="-1"></a><span class="co"># Normalize the data</span></span>
+<span id="cb23-5"><a href="c.elegans-plate-experiment.html#cb23-5" tabindex="-1"></a>C_elegans_data_normalized <span class="ot">&lt;-</span> C_elegans_data</span>
+<span id="cb23-6"><a href="c.elegans-plate-experiment.html#cb23-6" tabindex="-1"></a>C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="ot">&lt;-</span> C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="sc">/</span> mean_controlNegative</span>
+<span id="cb23-7"><a href="c.elegans-plate-experiment.html#cb23-7" tabindex="-1"></a>C_elegans_data_normalized<span class="sc">$</span>controlNegative <span class="ot">&lt;-</span> C_elegans_data<span class="sc">$</span>controlNegative <span class="sc">/</span> mean_controlNegative</span>
+<span id="cb23-8"><a href="c.elegans-plate-experiment.html#cb23-8" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="c.elegans-plate-experiment.html#cb23-9" tabindex="-1"></a><span class="co"># Rerun the scatterplot with log10 transformation and jitter using the normalized data</span></span>
+<span id="cb23-10"><a href="c.elegans-plate-experiment.html#cb23-10" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data_normalized, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
+<span id="cb23-11"><a href="c.elegans-plate-experiment.html#cb23-11" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb23-12"><a href="c.elegans-plate-experiment.html#cb23-12" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb23-13"><a href="c.elegans-plate-experiment.html#cb23-13" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
+<span id="cb23-14"><a href="c.elegans-plate-experiment.html#cb23-14" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
+<span id="cb23-15"><a href="c.elegans-plate-experiment.html#cb23-15" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
+<span id="cb23-16"><a href="c.elegans-plate-experiment.html#cb23-16" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;C. elegans Plaat Experiment: Scatterplot van Nakomelingentelling per Concentratie van Verbinding (Genormaliseerde Data)&quot;</span></span>
+<span id="cb23-17"><a href="c.elegans-plate-experiment.html#cb23-17" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb23-18"><a href="c.elegans-plate-experiment.html#cb23-18" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration), </span>
+<span id="cb23-19"><a href="c.elegans-plate-experiment.html#cb23-19" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
+<span id="cb23-20"><a href="c.elegans-plate-experiment.html#cb23-20" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="looking-ahead.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="peer-review.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

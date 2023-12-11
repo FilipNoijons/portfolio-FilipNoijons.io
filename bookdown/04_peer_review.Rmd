@@ -9,7 +9,7 @@ output: html_document
 ## Artikel referentie: 
 Seeley, S. L., D’Souza, M. S., Stoops, T. S., & Rorabaugh, B. R. (2020). Short term methylphenidate treatment does not increase myocardial injury in the ischemic rat heart. Physiological Research, 803–812. https://doi.org/10.33549/physiolres.934368
  
- 
+## Laden van juiste packages 
 ```{R}
 # Kies een CRAN mirror
 chooseCRANmirror(ind = 1)
@@ -19,7 +19,8 @@ install.packages("dplyr")
 # Laden van de knitr library
 library(knitr)
 ```
- 
+
+## Maken van tabel voor peer review scores
 ```{R}
  
 # Creëer een dataframe met de gegeven criteria en definities

@@ -11,3 +11,10 @@ description: "Dit is mijn portofolio bookdown"
 ```{r eval=FALSE}
 install.packages("bookdown")
 ```
+
+Welkom bij mijn portfolio! Mijn naam is Filip Noyons, en dit is mijn plek waar ik mijn werk van de cursus datascience for biology deel.
+
+Dit portfolio bevat een verzameling van projecten, opdrachten en ervaringen die ik heb opgedaan tijdens mijn minor datascience. Elke opdracht hier vertegenwoordigt een stap in mijn groei als data-professional en bio-informaticus.
+
+Je vindt hier een variëteit aan opdrachten - van het opstellen van een CV tot het toepassen van data-analyse op experimentele data. Ik heb mijn best gedaan om mijn vaardigheden en leerproces zo goed mogelijk weer te geven.
+
