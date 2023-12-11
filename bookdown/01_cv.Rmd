@@ -11,7 +11,7 @@ output: html_document
 
 - **Naam:** Filip Bastiaan Noijons
 - **Adres:** x
-- **Telefoon:** 06 12345678
+- **Telefoon:** X
 - **E-mail:** FilipNoyons@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
 - **Geboortedatum:** 8 augustus 2000
