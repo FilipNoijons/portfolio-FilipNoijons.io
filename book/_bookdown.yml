@@ -1,6 +1,0 @@
-title: "portfolio"
-author: "filip"
-output: 
-  bookdown::gitbook:
-    split_by: "chapter"
-delete_merged_file: true
