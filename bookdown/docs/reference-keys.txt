@@ -1,5 +1,5 @@
-welkom-op-mijn-bookdown
-cv
+portfolio
+curriculum-vitae
 persoonlijke-gegevens
 profielschets
 opleidingen
@@ -39,4 +39,3 @@ laden-van-juiste-packages
 maken-van-tabel-voor-peer-review-scores
 peer-review-score-verklaring
 rapport-op-vindingen-uit-het-artikel
-relationele-databases
