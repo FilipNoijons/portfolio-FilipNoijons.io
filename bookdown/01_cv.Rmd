@@ -10,8 +10,8 @@ output: html_document
 ## Persoonlijke gegevens
 
 - **Naam:** Filip Bastiaan Noijons
-- **Adres:** Fruinplantsoen 98, 3571PV
-- **Telefoon:** 06 81940552
+- **Adres:** x
+- **Telefoon:** 06 12345678
 - **E-mail:** FilipNoyons@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
 - **Geboortedatum:** 8 augustus 2000
