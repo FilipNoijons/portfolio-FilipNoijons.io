@@ -5,8 +5,10 @@ date: "2023-12-10"
 output: html_document
 ---
 
-# C.elegans
+# C.elegans plate experiment
 
+
+### Laad de juiste bibliotheek
 ```{R}
 # Laad de juiste library
 library(readxl)
@@ -38,14 +40,10 @@ class(C_elegans_data$compConcentration)
 C_elegans_data$compConcentration <- as.numeric(C_elegans_data$compConcentration)
 
 ```
-
+## De gemaakte scatterplot
 ```{R}
 
 # Laad de package ggplot
-
-# Assuming 'C_elegans_data' contains your dataset
-
-# Load the required packages
 library(ggplot2)
 
 # Maak de scatterplot met de  log10 transformatie en jitter
@@ -97,6 +95,7 @@ In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en e
 
 Door deze stappen systematisch te volgen, kan een grondige analyse worden uitgevoerd om te bepalen of verschillende concentraties een effect hebben op het aantal nakomelingen en of er verschillende concentratie-responsrelaties bestaan tussen verschillende verbindingen in het experiment.
 
+## De genormaliseerde data voor de control negative
 ```{r, eval=FALSE} 
 
 

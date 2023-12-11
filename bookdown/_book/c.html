@@ -155,7 +155,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.6" data-path="cv.html"><a href="cv.html#vrijwilligerswerk"><i class="fa fa-check"></i><b>1.6</b> Vrijwilligerswerk</a></li>
 <li class="chapter" data-level="1.7" data-path="cv.html"><a href="cv.html#projecten"><i class="fa fa-check"></i><b>1.7</b> Projecten</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="looking-ahead.html"><a href="looking-ahead.html"><i class="fa fa-check"></i><b>2</b> Looking ahead</a></li>
+<li class="chapter" data-level="2" data-path="looking-ahead.html"><a href="looking-ahead.html"><i class="fa fa-check"></i><b>2</b> Looking ahead</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-wil-ik-zijn-binnen-2-jaar"><i class="fa fa-check"></i><b>2.1</b> Waar wil ik zijn binnen 2 jaar?</a></li>
+<li class="chapter" data-level="2.2" data-path="looking-ahead.html"><a href="looking-ahead.html#een-nederlandse-organisatieinstelling-waar-ik-op-uit-kwam-was"><i class="fa fa-check"></i><b>2.2</b> Een Nederlandse organisatie/instelling waar ik op uit kwam was:</a></li>
+<li class="chapter" data-level="2.3" data-path="looking-ahead.html"><a href="looking-ahead.html#de-planning-om-mijn-vrije-opdracht-in-te-vullen"><i class="fa fa-check"></i><b>2.3</b> De planning om mijn vrije opdracht in te vullen</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-1-introductie-en-data-verzamelen-8-uur"><i class="fa fa-check"></i><b>2.3.1</b> Dag 1: Introductie en Data Verzamelen (8 uur)</a></li>
+<li class="chapter" data-level="2.3.2" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-2-data-voorbereiding-en-preprocessing-8-uur"><i class="fa fa-check"></i><b>2.3.2</b> Dag 2: Data Voorbereiding en Preprocessing (8 uur)</a></li>
+<li class="chapter" data-level="2.3.3" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-3-variant-calling-8-uur"><i class="fa fa-check"></i><b>2.3.3</b> Dag 3: Variant Calling (8 uur)</a></li>
+<li class="chapter" data-level="2.3.4" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-4-variant-filtratie-en-annotation-8-uur"><i class="fa fa-check"></i><b>2.3.4</b> Dag 4: Variant Filtratie en Annotation (8 uur)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-ik-stage-zou-gaan-lopen"><i class="fa fa-check"></i><b>2.4</b> Waar ik stage zou gaan lopen</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="c.html"><a href="c.html"><i class="fa fa-check"></i><b>3</b> C.elegans</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="c.html"><a href="c.html#eigen-analyse-stappen"><i class="fa fa-check"></i><b>3.1</b> Eigen analyse stappen</a>
@@ -195,13 +207,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="c.elegans" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter3</span> C.elegans<a href="c.html#c.elegans" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="c.html#cb6-1" tabindex="-1"></a><span class="co"># Laad de juiste library</span></span>
-<span id="cb6-2"><a href="c.html#cb6-2" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code></pre></div>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="c.html#cb7-1" tabindex="-1"></a><span class="co"># Lees het excel file in</span></span>
-<span id="cb7-2"><a href="c.html#cb7-2" tabindex="-1"></a>C_elegans_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx&quot;</span>)</span>
-<span id="cb7-3"><a href="c.html#cb7-3" tabindex="-1"></a></span>
-<span id="cb7-4"><a href="c.html#cb7-4" tabindex="-1"></a><span class="co"># Structuur van de data</span></span>
-<span id="cb7-5"><a href="c.html#cb7-5" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="c.html#cb4-1" tabindex="-1"></a><span class="co"># Laad de juiste library</span></span>
+<span id="cb4-2"><a href="c.html#cb4-2" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="c.html#cb5-1" tabindex="-1"></a><span class="co"># Lees het excel file in</span></span>
+<span id="cb5-2"><a href="c.html#cb5-2" tabindex="-1"></a>C_elegans_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx&quot;</span>)</span>
+<span id="cb5-3"><a href="c.html#cb5-3" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="c.html#cb5-4" tabindex="-1"></a><span class="co"># Structuur van de data</span></span>
+<span id="cb5-5"><a href="c.html#cb5-5" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data)</span></code></pre></div>
 <pre><code>## tibble [360 × 34] (S3: tbl_df/tbl/data.frame)
 ##  $ plateRow           : logi [1:360] NA NA NA NA NA NA ...
 ##  $ plateColumn        : logi [1:360] NA NA NA NA NA NA ...
@@ -237,8 +249,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ##  $ incubationRPM      : num [1:360] 35 35 35 35 35 35 35 35 35 35 ...
 ##  $ bubble             : logi [1:360] NA NA NA NA NA NA ...
 ##  $ incubateTemperature: num [1:360] 20 20 20 20 20 20 20 20 20 20 ...</code></pre>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="c.html#cb9-1" tabindex="-1"></a><span class="co"># Eerste rijen van de data </span></span>
-<span id="cb9-2"><a href="c.html#cb9-2" tabindex="-1"></a><span class="fu">head</span>(C_elegans_data)</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="c.html#cb7-1" tabindex="-1"></a><span class="co"># Eerste rijen van de data </span></span>
+<span id="cb7-2"><a href="c.html#cb7-2" tabindex="-1"></a><span class="fu">head</span>(C_elegans_data)</span></code></pre></div>
 <pre><code>## # A tibble: 6 × 34
 ##   plateRow plateColumn vialNr dropCode expType expReplicate expName
 ##   &lt;lgl&gt;    &lt;lgl&gt;        &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt;  
@@ -255,40 +267,40 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## #   compVehicle &lt;chr&gt;, elegansStrain &lt;chr&gt;, elegansInput &lt;dbl&gt;,
 ## #   bacterialStrain &lt;chr&gt;, bacterialTreatment &lt;chr&gt;,
 ## #   bacterialOD600 &lt;dbl&gt;, bacterialConcX &lt;dbl&gt;, …</code></pre>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="c.html#cb11-1" tabindex="-1"></a><span class="co"># Check de verschillende kolommen van de data</span></span>
-<span id="cb11-2"><a href="c.html#cb11-2" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data[<span class="fu">c</span>(<span class="st">&quot;RawData&quot;</span>, <span class="st">&quot;compName&quot;</span>, <span class="st">&quot;compConcentration&quot;</span>)])</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="c.html#cb9-1" tabindex="-1"></a><span class="co"># Check de verschillende kolommen van de data</span></span>
+<span id="cb9-2"><a href="c.html#cb9-2" tabindex="-1"></a><span class="fu">str</span>(C_elegans_data[<span class="fu">c</span>(<span class="st">&quot;RawData&quot;</span>, <span class="st">&quot;compName&quot;</span>, <span class="st">&quot;compConcentration&quot;</span>)])</span></code></pre></div>
 <pre><code>## tibble [360 × 3] (S3: tbl_df/tbl/data.frame)
 ##  $ RawData          : num [1:360] 44 37 45 47 41 35 41 36 40 38 ...
 ##  $ compName         : chr [1:360] &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; ...
 ##  $ compConcentration: chr [1:360] &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; ...</code></pre>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="c.html#cb13-1" tabindex="-1"></a><span class="co"># Check de data typen van de kolommen</span></span>
-<span id="cb13-2"><a href="c.html#cb13-2" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>RawData)</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="c.html#cb11-1" tabindex="-1"></a><span class="co"># Check de data typen van de kolommen</span></span>
+<span id="cb11-2"><a href="c.html#cb11-2" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>RawData)</span></code></pre></div>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="c.html#cb15-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compName)</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="c.html#cb13-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compName)</span></code></pre></div>
 <pre><code>## [1] &quot;character&quot;</code></pre>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="c.html#cb17-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="c.html#cb15-1" tabindex="-1"></a><span class="fu">class</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
 <pre><code>## [1] &quot;character&quot;</code></pre>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="c.html#cb19-1" tabindex="-1"></a><span class="co"># verander &#39;compConcentration&#39; van character naar numeric</span></span>
-<span id="cb19-2"><a href="c.html#cb19-2" tabindex="-1"></a>C_elegans_data<span class="sc">$</span>compConcentration <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="c.html#cb17-1" tabindex="-1"></a><span class="co"># verander &#39;compConcentration&#39; van character naar numeric</span></span>
+<span id="cb17-2"><a href="c.html#cb17-2" tabindex="-1"></a>C_elegans_data<span class="sc">$</span>compConcentration <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(C_elegans_data<span class="sc">$</span>compConcentration)</span></code></pre></div>
 <pre><code>## Warning: NAs introduced by coercion</code></pre>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="c.html#cb21-1" tabindex="-1"></a><span class="co"># Laad de package ggplot</span></span>
-<span id="cb21-2"><a href="c.html#cb21-2" tabindex="-1"></a></span>
-<span id="cb21-3"><a href="c.html#cb21-3" tabindex="-1"></a><span class="co"># Assuming &#39;C_elegans_data&#39; contains your dataset</span></span>
-<span id="cb21-4"><a href="c.html#cb21-4" tabindex="-1"></a></span>
-<span id="cb21-5"><a href="c.html#cb21-5" tabindex="-1"></a><span class="co"># Load the required packages</span></span>
-<span id="cb21-6"><a href="c.html#cb21-6" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb21-7"><a href="c.html#cb21-7" tabindex="-1"></a></span>
-<span id="cb21-8"><a href="c.html#cb21-8" tabindex="-1"></a><span class="co"># Maak de scatterplot met de  log10 transformatie en jitter</span></span>
-<span id="cb21-9"><a href="c.html#cb21-9" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
-<span id="cb21-10"><a href="c.html#cb21-10" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
-<span id="cb21-11"><a href="c.html#cb21-11" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb21-12"><a href="c.html#cb21-12" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
-<span id="cb21-13"><a href="c.html#cb21-13" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
-<span id="cb21-14"><a href="c.html#cb21-14" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
-<span id="cb21-15"><a href="c.html#cb21-15" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Scatterplot van Nakomelingentelling </span><span class="sc">\n</span><span class="st"> per Concentratie van Verbinding&quot;</span></span>
-<span id="cb21-16"><a href="c.html#cb21-16" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb21-17"><a href="c.html#cb21-17" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration), <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
-<span id="cb21-18"><a href="c.html#cb21-18" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="c.html#cb19-1" tabindex="-1"></a><span class="co"># Laad de package ggplot</span></span>
+<span id="cb19-2"><a href="c.html#cb19-2" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="c.html#cb19-3" tabindex="-1"></a><span class="co"># Assuming &#39;C_elegans_data&#39; contains your dataset</span></span>
+<span id="cb19-4"><a href="c.html#cb19-4" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="c.html#cb19-5" tabindex="-1"></a><span class="co"># Load the required packages</span></span>
+<span id="cb19-6"><a href="c.html#cb19-6" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb19-7"><a href="c.html#cb19-7" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="c.html#cb19-8" tabindex="-1"></a><span class="co"># Maak de scatterplot met de  log10 transformatie en jitter</span></span>
+<span id="cb19-9"><a href="c.html#cb19-9" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
+<span id="cb19-10"><a href="c.html#cb19-10" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb19-11"><a href="c.html#cb19-11" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb19-12"><a href="c.html#cb19-12" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
+<span id="cb19-13"><a href="c.html#cb19-13" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
+<span id="cb19-14"><a href="c.html#cb19-14" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
+<span id="cb19-15"><a href="c.html#cb19-15" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Scatterplot van Nakomelingentelling </span><span class="sc">\n</span><span class="st"> per Concentratie van Verbinding&quot;</span></span>
+<span id="cb19-16"><a href="c.html#cb19-16" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb19-17"><a href="c.html#cb19-17" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration), <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
+<span id="cb19-18"><a href="c.html#cb19-18" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
 <pre><code>## Warning: Transformation introduced infinite values in continuous
 ## x-axis</code></pre>
 <pre><code>## Warning: Removed 6 rows containing missing values
@@ -347,26 +359,26 @@ In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en e
 <li><strong>Controle van Aannames</strong>: Valideer aannames van gebruikte statistische tests en modellen.</li>
 </ul>
 <p>Door deze stappen systematisch te volgen, kan een grondige analyse worden uitgevoerd om te bepalen of verschillende concentraties een effect hebben op het aantal nakomelingen en of er verschillende concentratie-responsrelaties bestaan tussen verschillende verbindingen in het experiment.</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="c.html#cb24-1" tabindex="-1"></a><span class="co"># Calculate the mean of controlNegative</span></span>
-<span id="cb24-2"><a href="c.html#cb24-2" tabindex="-1"></a>mean_controlNegative <span class="ot">&lt;-</span> <span class="fu">mean</span>(C_elegans_data<span class="sc">$</span>controlNegative, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb24-3"><a href="c.html#cb24-3" tabindex="-1"></a></span>
-<span id="cb24-4"><a href="c.html#cb24-4" tabindex="-1"></a><span class="co"># Normalize the data</span></span>
-<span id="cb24-5"><a href="c.html#cb24-5" tabindex="-1"></a>C_elegans_data_normalized <span class="ot">&lt;-</span> C_elegans_data</span>
-<span id="cb24-6"><a href="c.html#cb24-6" tabindex="-1"></a>C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="ot">&lt;-</span> C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="sc">/</span> mean_controlNegative</span>
-<span id="cb24-7"><a href="c.html#cb24-7" tabindex="-1"></a>C_elegans_data_normalized<span class="sc">$</span>controlNegative <span class="ot">&lt;-</span> C_elegans_data<span class="sc">$</span>controlNegative <span class="sc">/</span> mean_controlNegative</span>
-<span id="cb24-8"><a href="c.html#cb24-8" tabindex="-1"></a></span>
-<span id="cb24-9"><a href="c.html#cb24-9" tabindex="-1"></a><span class="co"># Rerun the scatterplot with log10 transformation and jitter using the normalized data</span></span>
-<span id="cb24-10"><a href="c.html#cb24-10" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data_normalized, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
-<span id="cb24-11"><a href="c.html#cb24-11" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
-<span id="cb24-12"><a href="c.html#cb24-12" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb24-13"><a href="c.html#cb24-13" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
-<span id="cb24-14"><a href="c.html#cb24-14" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
-<span id="cb24-15"><a href="c.html#cb24-15" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
-<span id="cb24-16"><a href="c.html#cb24-16" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;C. elegans Plaat Experiment: Scatterplot van Nakomelingentelling per Concentratie van Verbinding (Genormaliseerde Data)&quot;</span></span>
-<span id="cb24-17"><a href="c.html#cb24-17" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb24-18"><a href="c.html#cb24-18" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration), </span>
-<span id="cb24-19"><a href="c.html#cb24-19" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
-<span id="cb24-20"><a href="c.html#cb24-20" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="c.html#cb22-1" tabindex="-1"></a><span class="co"># Calculate the mean of controlNegative</span></span>
+<span id="cb22-2"><a href="c.html#cb22-2" tabindex="-1"></a>mean_controlNegative <span class="ot">&lt;-</span> <span class="fu">mean</span>(C_elegans_data<span class="sc">$</span>controlNegative, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb22-3"><a href="c.html#cb22-3" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="c.html#cb22-4" tabindex="-1"></a><span class="co"># Normalize the data</span></span>
+<span id="cb22-5"><a href="c.html#cb22-5" tabindex="-1"></a>C_elegans_data_normalized <span class="ot">&lt;-</span> C_elegans_data</span>
+<span id="cb22-6"><a href="c.html#cb22-6" tabindex="-1"></a>C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="ot">&lt;-</span> C_elegans_data_normalized[, <span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>)] <span class="sc">/</span> mean_controlNegative</span>
+<span id="cb22-7"><a href="c.html#cb22-7" tabindex="-1"></a>C_elegans_data_normalized<span class="sc">$</span>controlNegative <span class="ot">&lt;-</span> C_elegans_data<span class="sc">$</span>controlNegative <span class="sc">/</span> mean_controlNegative</span>
+<span id="cb22-8"><a href="c.html#cb22-8" tabindex="-1"></a></span>
+<span id="cb22-9"><a href="c.html#cb22-9" tabindex="-1"></a><span class="co"># Rerun the scatterplot with log10 transformation and jitter using the normalized data</span></span>
+<span id="cb22-10"><a href="c.html#cb22-10" tabindex="-1"></a><span class="fu">ggplot</span>(C_elegans_data_normalized, <span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData, <span class="at">color =</span> compName, <span class="at">shape =</span> expType)) <span class="sc">+</span></span>
+<span id="cb22-11"><a href="c.html#cb22-11" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">height =</span> <span class="dv">0</span>), <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb22-12"><a href="c.html#cb22-12" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb22-13"><a href="c.html#cb22-13" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;compConcentration (log10)&quot;</span>,</span>
+<span id="cb22-14"><a href="c.html#cb22-14" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;RawData Counts&quot;</span>,</span>
+<span id="cb22-15"><a href="c.html#cb22-15" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;compName&quot;</span>,</span>
+<span id="cb22-16"><a href="c.html#cb22-16" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;C. elegans Plaat Experiment: Scatterplot van Nakomelingentelling per Concentratie van Verbinding (Genormaliseerde Data)&quot;</span></span>
+<span id="cb22-17"><a href="c.html#cb22-17" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb22-18"><a href="c.html#cb22-18" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>, <span class="at">breaks =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration), </span>
+<span id="cb22-19"><a href="c.html#cb22-19" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">unique</span>(C_elegans_data_normalized<span class="sc">$</span>compConcentration)) <span class="sc">+</span></span>
+<span id="cb22-20"><a href="c.html#cb22-20" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
 
 </div>
 </div>
