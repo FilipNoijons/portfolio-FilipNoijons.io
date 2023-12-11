@@ -1,5 +1,6 @@
-book_filename: "bookdown-demo"
-language:
-  ui:
-    chapter_name: "Chapter "
+title: "portfolio"
+author: "filip"
+output: 
+  bookdown::gitbook:
+    split_by: "chapter"
 delete_merged_file: true
