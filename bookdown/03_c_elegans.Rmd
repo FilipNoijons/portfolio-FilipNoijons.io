@@ -1,0 +1,124 @@
+---
+title: "C.Elegans"
+author: "filip"
+date: "2023-12-10"
+output: html_document
+---
+
+# C.elegans
+
+```{R}
+# Laad de juiste library
+library(readxl)
+
+```
+
+```{R}
+# Lees het excel file in
+C_elegans_data <- read_excel("~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx")
+
+# Structuur van de data
+str(C_elegans_data)
+
+# Eerste rijen van de data 
+head(C_elegans_data)
+
+```
+
+```{R}
+# Check de verschillende kolommen van de data
+str(C_elegans_data[c("RawData", "compName", "compConcentration")])
+
+# Check de data typen van de kolommen
+class(C_elegans_data$RawData)
+class(C_elegans_data$compName)
+class(C_elegans_data$compConcentration)
+
+# verander 'compConcentration' van character naar numeric
+C_elegans_data$compConcentration <- as.numeric(C_elegans_data$compConcentration)
+
+```
+
+```{R}
+
+# Laad de package ggplot
+
+# Assuming 'C_elegans_data' contains your dataset
+
+# Load the required packages
+library(ggplot2)
+
+# Maak de scatterplot met de  log10 transformatie en jitter
+ggplot(C_elegans_data, aes(x = compConcentration, y = RawData, color = compName, shape = expType)) +
+  geom_point(position = position_jitter(width = 0.1, height = 0), alpha = 0.6) +
+  labs(
+    x = "compConcentration (log10)",
+    y = "RawData Counts",
+    color = "compName",
+    title = "Scatterplot van Nakomelingentelling \n per Concentratie van Verbinding"
+  ) +
+  scale_x_continuous(trans = "log10", breaks = unique(C_elegans_data$compConcentration), labels = unique(C_elegans_data$compConcentration)) +
+  theme_minimal()
+
+
+```
+In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en ethanol de positieve controle.
+
+## Eigen analyse stappen
+
+### Stap 1: Data Verkenning en Samenvattende Statistieken
+- **Samenvattende Statistieken**: Bereken beschrijvende statistieken (gemiddelde, mediaan, standaardafwijking, etc.) van het aantal nakomelingen (`RawData`) voor elke verbinding bij verschillende concentraties.
+- **Visuele Inspectie**: Maak visualisaties (bijv. boxplots, lijngrafieken) om de verdeling van het aantal nakomelingen over verschillende concentraties en verbindingen te observeren.
+
+### Stap 2: Concentratie-Respons Relatie
+- **Dosis-Respons Curve**: Construeer dosis-responscurves voor elke verbinding door het aantal nakomelingen uit te zetten tegen concentraties.
+- **IC50 Schatting**: Gebruik geschikte modellen of methoden (bijv. niet-lineaire regressie) om de IC50-waarden voor elke verbinding te schatten. Vergelijk de IC50-waarden tussen verbindingen om verschillen in potentie te bepalen.
+
+### Stap 3: Statistische Analyse
+- **ANOVA of Regressie**: Voer statistische tests uit (bijv. ANOVA, lineaire of niet-lineaire regressie) om de relatie tussen concentraties en aantal nakomelingen te beoordelen.
+- **Vergelijkende Analyse**: Vergelijk statistisch het effect van concentraties op het aantal nakomelingen tussen verschillende verbindingen.
+
+### Stap 4: Hypothesetoetsing
+- **Nulhypothese**: Formuleer nul- en alternatieve hypothesen om te testen of er een significant effect is van concentratie op het aantal nakomelingen en of verschillende verbindingen verschillende reacties vertonen.
+- **Hypothesetoetsing**: Voer hypothesetesten uit (bijv. t-toetsen, ANOVA) om de significantie van verschillen in aantal nakomelingen over concentraties en tussen verbindingen te evalueren.
+
+### Stap 5: Modelopstelling en Validatie
+- **Modelselectie**: Pas passende concentratie-responsmodellen toe (bijv. Hill-vergelijking, sigmoïdale curve) op de data en valideer de kwaliteit van de pasvorm.
+- **Cross-Validatie**: Indien van toepassing, voer cross-validatie uit om de voorspellende kracht van de modellen te beoordelen.
+
+### Stap 6: Interpretatie en Conclusie
+- **Interpreteer Resultaten**: Analyseer de bevindingen van statistische analyses, concentratie-responscurves en IC50-schattingen.
+- **Conclusie**: Trek conclusies over het effect van concentraties op het aantal nakomelingen en eventuele verschillen tussen verbindingen. Bespreek de implicaties en beperkingen van de studie.
+
+### Stap 7: Extra Overwegingen
+- **Controle Vergelijking**: Vergelijk resultaten met controlegroepen (indien beschikbaar) om het basiseffect te begrijpen.
+- **Data-transformatie**: Indien nodig, pas data-transformaties toe (bijv. normalisatie) voor een betere analyse en interpretatie.
+- **Controle van Aannames**: Valideer aannames van gebruikte statistische tests en modellen.
+
+Door deze stappen systematisch te volgen, kan een grondige analyse worden uitgevoerd om te bepalen of verschillende concentraties een effect hebben op het aantal nakomelingen en of er verschillende concentratie-responsrelaties bestaan tussen verschillende verbindingen in het experiment.
+
+```{r, eval=FALSE} 
+
+
+# Calculate the mean of controlNegative
+mean_controlNegative <- mean(C_elegans_data$controlNegative, na.rm = TRUE)
+
+# Normalize the data
+C_elegans_data_normalized <- C_elegans_data
+C_elegans_data_normalized[, -c(1:4)] <- C_elegans_data_normalized[, -c(1:4)] / mean_controlNegative
+C_elegans_data_normalized$controlNegative <- C_elegans_data$controlNegative / mean_controlNegative
+
+# Rerun the scatterplot with log10 transformation and jitter using the normalized data
+ggplot(C_elegans_data_normalized, aes(x = compConcentration, y = RawData, color = compName, shape = expType)) +
+  geom_point(position = position_jitter(width = 0.1, height = 0), alpha = 0.6) +
+  labs(
+    x = "compConcentration (log10)",
+    y = "RawData Counts",
+    color = "compName",
+    title = "C. elegans Plaat Experiment: Scatterplot van Nakomelingentelling per Concentratie van Verbinding (Genormaliseerde Data)"
+  ) +
+  scale_x_continuous(trans = "log10", breaks = unique(C_elegans_data_normalized$compConcentration), 
+                     labels = unique(C_elegans_data_normalized$compConcentration)) +
+  theme_minimal()
+
+```

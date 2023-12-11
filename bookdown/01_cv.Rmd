@@ -1,9 +1,13 @@
 ---
 title: "Curriculum Vitae"
+author: "filip"
+date: "2023-12-10"
 output: html_document
 ---
 
-# Persoonlijke gegevens
+# CV
+
+## Persoonlijke gegevens
 
 - **Naam:** Filip Bastiaan Noijons
 - **Adres:** Fruinplantsoen 98, 3571PV
@@ -12,41 +16,39 @@ output: html_document
 - **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
 - **Geboortedatum:** 8 augustus 2000
 
-# Profielschets
-
+## Profielschets
 
 "Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Tijdens mijn studie heb ik ook vele uren in het lab doorgebracht, waar ik praktische ervaring heb opgedaan. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
 
----
-# Opleidingen
+## Opleidingen
 
-## Bachelor in Life Sciences
+### Bachelor in Life Sciences
 - **Hogeschool:** HU, Utrecht
 - **Jaar:** 2020 - 2025
 
-## Minor Data science for biology
+### Minor Data science for biology
 - **Hogeschool:** HU, utrecht 
 - **Jaar:** 2023
 
-## HAVO (hoger algemeen voortgezet onderwijs)
+### HAVO (hoger algemeen voortgezet onderwijs)
 - **School:** Spinoza lyceum, Amsterdam
 - **Jaar:** 2012 - 2017
 
-# Vaardigheden
+## Vaardigheden
 
 - **Programmeertalen:** Rstudio, Bash
 - **Tools:** Github, SQL, python
 - **Talen:** Nederlands, Engels
 
 
-# Werkervaring
+## Werkervaring
 
-## Freelance
+### Freelance
 - **Bedrijf:** Temper & staffyou, Utrecht
 - **Periode:** Mei - september 2023
   
 
-## Functie: Keukenhulp
+### Functie: Keukenhulp
 - **Bedrijf:** Marleenkookt, Amsterdam
 - **Periode:** januari - juni 2019
   
@@ -56,7 +58,7 @@ output: html_document
 - **Taken:** Substrate surveys of the coral reefs along the southern coast of Negros island, mangrove planting and beach clean-ups 
 
 
-# Projecten
+## Projecten
 
 - **Projectnaam:**  Transdifferentiatie met ONECUT1
 - **Periode:** november 2023

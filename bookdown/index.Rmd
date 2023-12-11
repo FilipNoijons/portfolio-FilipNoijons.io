@@ -1,0 +1,13 @@
+--- 
+title: "Portofolio"
+author: "Filip Noijons"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+description: "Dit is mijn portofolio bookdown"
+---
+ 
+```{r eval=FALSE}
+install.packages("bookdown")
+```

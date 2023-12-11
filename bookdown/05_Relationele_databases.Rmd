@@ -1,0 +1,10 @@
+---
+title: "Relationele databases"
+author: "filip"
+date: "2023-12-10"
+output: html_document
+---
+
+# Relationele databases
+
+
