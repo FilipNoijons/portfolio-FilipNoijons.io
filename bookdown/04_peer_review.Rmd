@@ -1,9 +1,4 @@
----
-title: "Peer review: Short Term Methylphenidate Treatment Does Not Increase Myocardial Injury in the Ischemic Rat Heart"
-author: "filip"
-date: "2023-12-10"
-output: html_document
----
+
 # Peer review
  
 ## Artikel referentie: 

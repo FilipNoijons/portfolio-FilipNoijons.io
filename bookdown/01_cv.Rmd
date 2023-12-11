@@ -1,10 +1,3 @@
----
-title: "Curriculum Vitae"
-author: "filip"
-date: "2023-12-10"
-output: html_document
----
-
 # Curriculum Vitae
 
 ## Persoonlijke gegevens

@@ -1,9 +1,3 @@
----
-title: "looking ahead"
-author: "filip"
-date: "2023-12-10"
-output: html_document
----
 
 # Looking ahead
 
