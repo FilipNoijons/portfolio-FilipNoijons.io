@@ -9,6 +9,7 @@ Dit portfolio bevat een verzameling van projecten, opdrachten en ervaringen die 
 
 Je vindt hier een variëteit aan opdrachten - van het opstellen van een CV tot het toepassen van data-analyse op experimentele data. Ik heb mijn best gedaan om mijn vaardigheden en leerproces zo goed mogelijk weer te geven.
 
+Veel lees plezier
 
 ---
 
