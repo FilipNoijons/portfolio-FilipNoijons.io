@@ -1,49 +1,28 @@
 
----
+# Portfolio Data Science for Biology
 
-# Welkom op mijn Portfolio!
+Dit repository bevat de bronbestanden van mijn portfolio voor de cursus **Workflows** binnen de minor **Data Science for Biology**.
 
-Welkom bij mijn portfolio! Mijn naam is Filip Noyons, en dit is mijn plek waar ik mijn werk van de cursus datascience for biology deel.
+Het portfolio is opgebouwd als een website met behulp van **bookdown** en wordt gepubliceerd via **GitHub Pages**. In dit portfolio presenteer ik projecten, analyses en opdrachten die mijn ontwikkeling laten zien op het gebied van reproduceerbaar werken, data management, visualisatie, SQL en package development in R.
 
-Dit portfolio bevat een verzameling van projecten, opdrachten en ervaringen die ik heb opgedaan tijdens mijn minor datascience. Elke opdracht hier vertegenwoordigt een stap in mijn groei als data-professional en bio-informaticus.
+## Inhoud van dit repository
 
-Je vindt hier een variëteit aan opdrachten - van het opstellen van een CV tot het toepassen van data-analyse op experimentele data. Ik heb mijn best gedaan om mijn vaardigheden en leerproces zo goed mogelijk weer te geven.
+De repository bevat onder andere:
 
-Veel lees plezier
+- `index.Rmd` als startpagina van het portfolio;
+- meerdere `.Rmd` bestanden voor de verschillende portfolio-onderdelen;
+- `_bookdown.yml` voor de configuratie van de bookdown-website;
+- `style.css` voor aangepaste opmaak;
+- `docs/` met de gegenereerde websitebestanden voor GitHub Pages.
 
----
+## Doel van het portfolio
 
+Het doel van dit portfolio is om op een professionele en gestructureerde manier te laten zien welke vaardigheden ik heb ontwikkeld binnen **Data Science for Biology**. Daarbij ligt de nadruk op zowel technische uitvoering als heldere documentatie en reproduceerbaarheid.
 
+## Publicatie
 
-## CV Start
-Ik heb een professioneel CV gemaakt als onderdeel van mijn portfolio met behulp van GitHub voor versiebeheer. Mijn focus lag op een volledige en professionele presentatie voor toekomstige bio-informatica stages of banen.
-(https://github.com/FilipNoijons/portfolio/blob/main/cv.Rmd)
+De websiteversie van dit portfolio is gepubliceerd via GitHub Pages.
 
-## Toekomstplanning
-Ik heb mijn doelen voor de komende ~2 jaar gedefinieerd, mijn vooruitgang geëvalueerd en de volgende vaardigheid in data science/bio-informatica geïdentificeerd om te leren. Mijn plan en de eerste stappen heb ik gedocumenteerd in mijn portfolio.
-(https://github.com/FilipNoijons/portfolio/blob/main/looking_ahead.Rmd)
+## Opmerking
 
-## GitHub Pages Portfolio
-Mijn professionele portfolio is succesvol gecreëerd met behulp van GitHub Pages. Het ziet er verzorgd uit voor toekomstige sollicitaties en is toegevoegd aan mijn cijfer.
-
-## Guerrilla Analytics Framework
-Ik heb met succes de principes van Guerrilla Analytics toegepast op mijn bestaande projecten, mijn werkplek georganiseerd en samengewerkt met labpartners voor een specifiek project.
-
-## C. elegans Experiment
-Ik heb een grondige analyse uitgevoerd op het C. elegans experiment, de stappen gedocumenteerd en deze toegevoegd aan mijn portfolio. (https://github.com/FilipNoijons/portfolio/blob/main/c_elegans.Rmd)
-
-## Open Peer Review
-Het beoordelen van de reproduceerbaarheid van een wetenschappelijk artikel volgens verschillende openbare criteria is succesvol uitgevoerd. Ik heb dit toegepast op een openbaar toegankelijk artikel.
-(https://github.com/FilipNoijons/portfolio/blob/main/Peer_review.Rmd)
-
-## Relationele Databases
-Ik heb met succes flu-, dengue- en gapminder-data geladen in aparte dataframes in R. Deze zijn geconverteerd naar een "tidy" formaat, opgeslagen als CSV- en RDS-bestanden en toegevoegd aan een PostgreSQL-database.
-
-## R Pakket Creatie
-Ik heb RMarkdown-bestanden met succes omgezet naar een R-pakket met functies, documentatie, een dataset en een vignette.
-
-## Portfolio Voorbereiding
-Mijn portfolio bevat up-to-date lokale en GitHub repositories voor verschillende projecten. Ik heb referenties toegevoegd en een inleiding voor een projecticum aan mijn portfolio.
-
-## Parameterized Rapport
-Ik heb een uitgebreid RMarkdown-rapport gemaakt over COVID-19 gevallen en sterfgevallen vanuit ECDC-data. Met parameters voor land, jaar en periode, waarmee ik mijn rapportvaardigheden heb gedemonstreerd in mijn portfolio.
+Dit repository wordt gedurende de cursus regelmatig bijgewerkt. De inhoud kan daarom in de loop van de tijd worden uitgebreid of aangepast.
