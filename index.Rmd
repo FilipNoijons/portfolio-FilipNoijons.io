@@ -6,8 +6,6 @@ site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
     css: style.css
-    toc: true
-    toc_depth: 2
     number_sections: false
 documentclass: book
 ---
