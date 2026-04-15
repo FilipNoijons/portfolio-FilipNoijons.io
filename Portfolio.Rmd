@@ -82,72 +82,131 @@ Veel leesplezier.
 
 # Curriculum Vitae
 
+## Profiel
+
+Gemotiveerde Life Sciences student met praktijkervaring in preklinisch kankeronderzoek, proefdierkunde en data science. Ik heb ervaring met in vivo knaagdiermodellen, experimenteel ontwerp en het analyseren van biologische data. Mijn interesses liggen op het snijvlak van biomedisch onderzoek, oncologie en reproduceerbare data-analyse. :contentReference[oaicite:1]{index=1}
+
 ## Persoonlijke gegevens
 
-- **Naam:** Filip Bastiaan Noijons
-- **Adres:** x
-- **Telefoon:** X
-- **E-mail:** FilipNoyons@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
-- **Geboortedatum:** 8 augustus 2000
+**Naam:** Filip Bastiaan Noijons  
+**Geboortedatum:** 08-08-2000  
+**Nationaliteit:** Nederlands  
 
-## Profielschets
+## Contact
 
-"Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Tijdens mijn studie heb ik ook vele uren in het lab doorgebracht, waar ik praktische ervaring heb opgedaan. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
+**E-mail:** Filipnoyons@gmail.com  
+**Telefoon:** 06 81940552  
+**Plaats:** Utrecht  
 
-## Opleidingen
+## Opleiding
 
-### Bachelor in Life Sciences
-- **Hogeschool:** HU, Utrecht
-- **Jaar:** 2020 - 2025
+### Bachelor Thesis – Netherlands Cancer Institute (NKI-AVL)
+**Life Sciences Hogeschool Utrecht**  
+**februari 2025 – november 2025**
 
-### Minor Data science for biology
-- **Hogeschool:** HU, utrecht 
-- **Jaar:** 2023
+Binnen mijn bachelorstage onderzocht ik de respons op endocriene therapie in intraductale T-47D borstkanker xenograftmodellen in muizen. Ik voerde behandelingen uit, monitorde tumorgroei, werkte met gerandomiseerde en geblindeerde studies en analyseerde onderzoeksdata. Daarnaast werkte ik samen met meerdere onderzoeksgroepen binnen de Preclinical Intervention Unit. :contentReference[oaicite:2]{index=2}
 
-### HAVO (hoger algemeen voortgezet onderwijs)
-- **School:** Spinoza lyceum, Amsterdam
-- **Jaar:** 2012 - 2017
+### Specialisatie Preclinical Animal Research (Zoology)
+**Life Sciences Hogeschool Utrecht**  
+**september 2024 – januari 2025**
+
+Binnen deze specialisatie volgde ik vakken in tumorbiologie, neurobiologie en laboratoriumdierkunde. Ik deed praktische ervaring op met injectietechnieken, anesthesie, chirurgische ondersteuning en experimenteel ontwerp, met nadruk op ethisch verantwoord dieronderzoek. Ik behaalde kwalificaties passend bij Artikel 13f en Artikel 9 van de Wet op de dierproeven. :contentReference[oaicite:3]{index=3}
+
+### Minor Data Science for Biology
+**Life Sciences Hogeschool Utrecht**  
+**februari 2023 – juli 2023**
+
+Tijdens deze minor werkte ik aan metagenomics-pipelines met Nanopore MinION-data, FASTQ kwaliteitscontrole, taxonomische classificatie met Kraken2 en Centrifuge, RNA-seq analyse, Bash, GitHub en reproduceerbare data workflows in R en R Markdown. :contentReference[oaicite:4]{index=4}
+
+### Bachelor of Applied Science – Life Sciences
+**Hogeschool Utrecht**  
+**2020 – heden**
+
+Binnen de opleiding heb ik brede laboratoriumervaring opgedaan in onder andere moleculaire biologie, microbiologie, immunologie en biomedisch onderzoek. :contentReference[oaicite:5]{index=5}
+
+### HAVO – Spinoza Lyceum
+**2012 – 2018**  
+Profiel: **Natuur en Gezondheid** :contentReference[oaicite:6]{index=6}
 
 ## Vaardigheden
 
-- **Programmeertalen:** Rstudio, Bash
-- **Tools:** Github, SQL, python
-- **Talen:** Nederlands, Engels
+### Data Science for Biology
+- R / RStudio
+- Bash / Linux
+- GitHub
+- RNA-seq analyse
+- Metagenomics analyse
+- Kraken2 / Centrifuge
+- Nanopore sequencing
+- FASTQ processing
+- R Markdown
+- Reproduceerbare research workflows :contentReference[oaicite:7]{index=7}
 
+### Preklinisch onderzoek en proefdierkunde
+- Hanteren en fixeren van muizen en ratten
+- Orale gavage
+- Intraperitoneale en subcutane injecties
+- Venapunctie en bloedafname
+- Isofluraan anesthesie
+- CO₂-euthanasie
+- Tumormetingen in xenograftmodellen
+- Monitoring van dierenwelzijn
+- Chirurgische assistentie en hechten
+- MRI
+- Preklinisch oncologisch onderzoek :contentReference[oaicite:8]{index=8}
 
 ## Werkervaring
 
-### Freelance
-- **Bedrijf:** Temper & staffyou, Utrecht
-- **Periode:** Mei - september 2023
-  
+### Student Driver
+**Fleetport Poolbeheer**  
+**2023 – heden**
 
-### Functie: Keukenhulp
-- **Bedrijf:** Marleenkookt, Amsterdam
-- **Periode:** januari - juni 2019
-  
-## Vrijwilligerswerk
-- **Bedrijf:** Marine conservation Philipines, Zamboanguita
-- **Periode:** september - December 2019 
-- **Taken:** Substrate surveys of the coral reefs along the southern coast of Negros island, mangrove planting and beach clean-ups 
+In deze functie ontwikkel ik organisatorische en logistieke vaardigheden, met verantwoordelijkheid voor planning, coördinatie en zorgvuldig voertuigbeheer. :contentReference[oaicite:9]{index=9}
 
+### Vrijwilliger
+**Marine Conservation Philippines**  
+**september 2019 – december 2019**
 
-## Projecten
+Tijdens dit vrijwilligerswerk heb ik koraalrif-substraatsurveys uitgevoerd langs de zuidkust van Negros Island. Daarnaast nam ik deel aan mangroveherstel en beach clean-up activiteiten. :contentReference[oaicite:10]{index=10}
 
-- **Projectnaam:**  Transdifferentiatie met ONECUT1
-- **Periode:** november 2023
-- **Programmeertalen/tools gebruikt:** Bash, Rstudio
+### Kitchen Assistant & Delivery Driver
+**MarleenKookt**  
+**januari 2019 – juli 2019** :contentReference[oaicite:11]{index=11}
 
+### Delivery Driver
+**Thuisbezorgd**  
+**februari 2018 – december 2018** :contentReference[oaicite:12]{index=12}
 
-- **Projectnaam:**  slootwater/metagenomics
-- **Periode:** november 2023
-- **Programmeertalen/tools gebruikt:** Bash, Rstudio, github, sql.
+## Competenties
 
+- Preklinisch in vivo onderzoek
+- Experimenteel ontwerp
+- Data-analyse en statistiek
+- Wetenschappelijke rapportage
+- Kritisch denken
+- Samenwerken in onderzoeksomgevingen
+- Zelfstandig onderzoek uitvoeren :contentReference[oaicite:13]{index=13}
 
+## Certificeringen
 
+- Article 13f (Wet op de dierproeven)
+- Article 9 (Wet op de dierproeven)
+- EFR Primary Care & Secondary Care
+- Rescue Diver
+- Enriched Air (Nitrox) Diver :contentReference[oaicite:14]{index=14}
 
+## Talen
 
+- Nederlands — moedertaal
+- Engels — vloeiend
+- Duits — basisniveau :contentReference[oaicite:15]{index=15}
+
+## Nevenactiviteiten
+
+### Fiscus — Unitas S.R.
+**2021 – 2022**
+
+Binnen deze commissie was ik verantwoordelijk voor financiële administratie, budgetplanning, uitgavenregistratie en afstemming met bestuur en commissieleden. :contentReference[oaicite:16]{index=16}
 
 <!--chapter:end:01_cv.Rmd-->
 
@@ -211,123 +270,6 @@ Ik ga mij vooral bezig houden met variant calling in het vakgebied van onco geno
 
 <!--chapter:end:02_looking_ahead.Rmd-->
 
-
-# C.elegans plate experiment
-
-
-### Laad de juiste bibliotheek
-```{R}
-# Laad de juiste library
-library(readxl)
-
-```
-
-```{R}
-# Lees het excel file in
-C_elegans_data <- read_excel("~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx")
-
-# Structuur van de data
-str(C_elegans_data)
-
-# Eerste rijen van de data 
-head(C_elegans_data)
-
-```
-
-```{R}
-# Check de verschillende kolommen van de data
-str(C_elegans_data[c("RawData", "compName", "compConcentration")])
-
-# Check de data typen van de kolommen
-class(C_elegans_data$RawData)
-class(C_elegans_data$compName)
-class(C_elegans_data$compConcentration)
-
-# verander 'compConcentration' van character naar numeric
-C_elegans_data$compConcentration <- as.numeric(C_elegans_data$compConcentration)
-
-```
-## De gemaakte scatterplot
-```{R}
-
-# Laad de package ggplot
-library(ggplot2)
-
-# Maak de scatterplot met de  log10 transformatie en jitter
-ggplot(C_elegans_data, aes(x = compConcentration, y = RawData, color = compName, shape = expType)) +
-  geom_point(position = position_jitter(width = 0.1, height = 0), alpha = 0.6) +
-  labs(
-    x = "compConcentration (log10)",
-    y = "RawData Counts",
-    color = "compName",
-    title = "Scatterplot van Nakomelingentelling \n per Concentratie van Verbinding"
-  ) +
-  scale_x_continuous(trans = "log10", breaks = unique(C_elegans_data$compConcentration), labels = unique(C_elegans_data$compConcentration)) +
-  theme_minimal()
-
-
-```
-In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en ethanol de positieve controle.
-
-## Eigen analyse stappen
-
-### Stap 1: Data Verkenning en Samenvattende Statistieken
-- **Samenvattende Statistieken**: Bereken beschrijvende statistieken (gemiddelde, mediaan, standaardafwijking, etc.) van het aantal nakomelingen (`RawData`) voor elke verbinding bij verschillende concentraties.
-- **Visuele Inspectie**: Maak visualisaties (bijv. boxplots, lijngrafieken) om de verdeling van het aantal nakomelingen over verschillende concentraties en verbindingen te observeren.
-
-### Stap 2: Concentratie-Respons Relatie
-- **Dosis-Respons Curve**: Construeer dosis-responscurves voor elke verbinding door het aantal nakomelingen uit te zetten tegen concentraties.
-- **IC50 Schatting**: Gebruik geschikte modellen of methoden (bijv. niet-lineaire regressie) om de IC50-waarden voor elke verbinding te schatten. Vergelijk de IC50-waarden tussen verbindingen om verschillen in potentie te bepalen.
-
-### Stap 3: Statistische Analyse
-- **ANOVA of Regressie**: Voer statistische tests uit (bijv. ANOVA, lineaire of niet-lineaire regressie) om de relatie tussen concentraties en aantal nakomelingen te beoordelen.
-- **Vergelijkende Analyse**: Vergelijk statistisch het effect van concentraties op het aantal nakomelingen tussen verschillende verbindingen.
-
-### Stap 4: Hypothesetoetsing
-- **Nulhypothese**: Formuleer nul- en alternatieve hypothesen om te testen of er een significant effect is van concentratie op het aantal nakomelingen en of verschillende verbindingen verschillende reacties vertonen.
-- **Hypothesetoetsing**: Voer hypothesetesten uit (bijv. t-toetsen, ANOVA) om de significantie van verschillen in aantal nakomelingen over concentraties en tussen verbindingen te evalueren.
-
-### Stap 5: Modelopstelling en Validatie
-- **Modelselectie**: Pas passende concentratie-responsmodellen toe (bijv. Hill-vergelijking, sigmoïdale curve) op de data en valideer de kwaliteit van de pasvorm.
-- **Cross-Validatie**: Indien van toepassing, voer cross-validatie uit om de voorspellende kracht van de modellen te beoordelen.
-
-### Stap 6: Interpretatie en Conclusie
-- **Interpreteer Resultaten**: Analyseer de bevindingen van statistische analyses, concentratie-responscurves en IC50-schattingen.
-- **Conclusie**: Trek conclusies over het effect van concentraties op het aantal nakomelingen en eventuele verschillen tussen verbindingen. Bespreek de implicaties en beperkingen van de studie.
-
-### Stap 7: Extra Overwegingen
-- **Controle Vergelijking**: Vergelijk resultaten met controlegroepen (indien beschikbaar) om het basiseffect te begrijpen.
-- **Data-transformatie**: Indien nodig, pas data-transformaties toe (bijv. normalisatie) voor een betere analyse en interpretatie.
-- **Controle van Aannames**: Valideer aannames van gebruikte statistische tests en modellen.
-
-Door deze stappen systematisch te volgen, kan een grondige analyse worden uitgevoerd om te bepalen of verschillende concentraties een effect hebben op het aantal nakomelingen en of er verschillende concentratie-responsrelaties bestaan tussen verschillende verbindingen in het experiment.
-
-## De genormaliseerde data voor de control negative
-```{r, eval=FALSE} 
-
-
-# Calculate the mean of controlNegative
-mean_controlNegative <- mean(C_elegans_data$controlNegative, na.rm = TRUE)
-
-# Normalize the data
-C_elegans_data_normalized <- C_elegans_data
-C_elegans_data_normalized[, -c(1:4)] <- C_elegans_data_normalized[, -c(1:4)] / mean_controlNegative
-C_elegans_data_normalized$controlNegative <- C_elegans_data$controlNegative / mean_controlNegative
-
-# Rerun the scatterplot with log10 transformation and jitter using the normalized data
-ggplot(C_elegans_data_normalized, aes(x = compConcentration, y = RawData, color = compName, shape = expType)) +
-  geom_point(position = position_jitter(width = 0.1, height = 0), alpha = 0.6) +
-  labs(
-    x = "compConcentration (log10)",
-    y = "RawData Counts",
-    color = "compName",
-    title = "C. elegans Plaat Experiment: Scatterplot van Nakomelingentelling per Concentratie van Verbinding (Genormaliseerde Data)"
-  ) +
-  scale_x_continuous(trans = "log10", breaks = unique(C_elegans_data_normalized$compConcentration), 
-                     labels = unique(C_elegans_data_normalized$compConcentration)) +
-  theme_minimal()
-
-```
 
 <!--chapter:end:03_c_elegans.Rmd-->
 
@@ -432,6 +374,53 @@ Show some descriptive statistics with this table, and at least 3 visualisations 
 Write a short report to show at least te actions listed in this assignment in a Rmd file for your portfolio. Include pictures and provide text explaining and showcasing your skills.
 
 <!--chapter:end:05_Relational_databases.Rmd-->
+
+---
+title: "Solicitatie brief"
+author: "Filip"
+date: "2023-11-26"
+output: html_document
+---
+
+
+
+---
+
+Filip Noyons  
+Fruinplantsoen 98  
++31681940552  
+FilipNoyons@gmail.com  
+
+26 november 2023  
+
+Antoni van Leeuwenhoek Ziekenhuis  
+T.a.v. Reuven Agami Oncogenomics Research Group  
+Plesmanlaan 121  
+1066 CX Amsterdam  
+
+Betreft: Sollicitatie voor een stageplek binnen de Reuven Agami Oncogenomics Research Group  
+
+Geachte heer/mevrouw,  
+
+Graag wil ik mijn grote interesse in oncogenomics benadrukken en mijn enthousiasme uiten voor een stageplek binnen de Reuven Agami Oncogenomics Research Group van het Antoni van Leeuwenhoek ziekenhuis. Momenteel ben ik op zoek naar een stageplaats om mijn kennis verder te ontwikkelen en ervaring op te doen in dit vakgebied.  
+
+Met mijn HBO-opleiding Life Sciences met de richting Datasciences for biology heb ik een sterke interesse ontwikkeld in de moleculaire aspecten van kanker. Door zelfstudie heb ik basiskennis opgedaan in oncogenomics en ben ik vertrouwd geraakt met RNA- en DNA-sequencing. Ik heb gewerkt met programma's zoals Rstudio, Bash, Python?.
+
+Tijdens mijn zelfstudie werd ik gegrepen door de complexiteit van genomics-data-analyse en de mogelijkheid om nieuwe inzichten te verkrijgen over kanker. Mijn motivatie is gegroeid om bij te dragen aan dit belangrijke onderzoeksveld door het ontdekken van nieuwe behandelmogelijkheden.
+
+Wat mij bijzonder aanspreekt aan de Reuven Agami Oncogenomics Research Group is jullie innovatieve werk in het identificeren van zwakke plekken in kanker. Ik bewonder jullie inzet en baanbrekende resultaten in dit onderzoek.
+
+Met mijn passie voor oncogenomics, mijn leergierigheid en mijn vastberadenheid om bij te dragen aan kankeronderzoek, ben ik ervan overtuigd dat ik waardevol kan zijn als stagiair binnen jullie onderzoeksgroep.
+
+Ik kijk er enorm naar uit om mijn enthousiasme en leergierigheid te delen met de Reuven Agami Oncogenomics Research Group. Graag zou ik de mogelijkheid krijgen om mijn motivatie en ervaring persoonlijk toe te lichten tijdens een gesprek.
+
+Met vriendelijke groet,
+
+Filip Noyons  
+
+---
+
+<!--chapter:end:06_Solicititatie_brief.Rmd-->
 
 --- 
 title: "Portofolio"
@@ -589,61 +578,7 @@ Ik ga mij vooral bezig houden met variant calling in het vakgebied van onco geno
 <!--chapter:end:02_looking_ahead.Rmd-->
 
 
-# C.elegans plate experiment
 
-
-### Laad de juiste bibliotheek
-```{R}
-# Laad de juiste library
-library(readxl)
-
-```
-
-```{R}
-# Lees het excel file in
-C_elegans_data <- read_excel("~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx")
-
-# Structuur van de data
-str(C_elegans_data)
-
-# Eerste rijen van de data 
-head(C_elegans_data)
-
-```
-
-```{R}
-# Check de verschillende kolommen van de data
-str(C_elegans_data[c("RawData", "compName", "compConcentration")])
-
-# Check de data typen van de kolommen
-class(C_elegans_data$RawData)
-class(C_elegans_data$compName)
-class(C_elegans_data$compConcentration)
-
-# verander 'compConcentration' van character naar numeric
-C_elegans_data$compConcentration <- as.numeric(C_elegans_data$compConcentration)
-
-```
-## De gemaakte scatterplot
-```{R}
-
-# Laad de package ggplot
-library(ggplot2)
-
-# Maak de scatterplot met de  log10 transformatie en jitter
-ggplot(C_elegans_data, aes(x = compConcentration, y = RawData, color = compName, shape = expType)) +
-  geom_point(position = position_jitter(width = 0.1, height = 0), alpha = 0.6) +
-  labs(
-    x = "compConcentration (log10)",
-    y = "RawData Counts",
-    color = "compName",
-    title = "Scatterplot van Nakomelingentelling \n per Concentratie van Verbinding"
-  ) +
-  scale_x_continuous(trans = "log10", breaks = unique(C_elegans_data$compConcentration), labels = unique(C_elegans_data$compConcentration)) +
-  theme_minimal()
-
-
-```
 In de bovenstaande grafiek is te zien dat S-medium de negatieve controle is en ethanol de positieve controle.
 
 ## Eigen analyse stappen
@@ -859,51 +794,4 @@ Filip Noyons
 
 
 <!--chapter:end:bookdown-demo.Rmd-->
-
----
-title: "Solicitatie brief"
-author: "Filip"
-date: "2023-11-26"
-output: html_document
----
-
-
-
----
-
-Filip Noyons  
-Fruinplantsoen 98  
-+31681940552  
-FilipNoyons@gmail.com  
-
-26 november 2023  
-
-Antoni van Leeuwenhoek Ziekenhuis  
-T.a.v. Reuven Agami Oncogenomics Research Group  
-Plesmanlaan 121  
-1066 CX Amsterdam  
-
-Betreft: Sollicitatie voor een stageplek binnen de Reuven Agami Oncogenomics Research Group  
-
-Geachte heer/mevrouw,  
-
-Graag wil ik mijn grote interesse in oncogenomics benadrukken en mijn enthousiasme uiten voor een stageplek binnen de Reuven Agami Oncogenomics Research Group van het Antoni van Leeuwenhoek ziekenhuis. Momenteel ben ik op zoek naar een stageplaats om mijn kennis verder te ontwikkelen en ervaring op te doen in dit vakgebied.  
-
-Met mijn HBO-opleiding Life Sciences met de richting Datasciences for biology heb ik een sterke interesse ontwikkeld in de moleculaire aspecten van kanker. Door zelfstudie heb ik basiskennis opgedaan in oncogenomics en ben ik vertrouwd geraakt met RNA- en DNA-sequencing. Ik heb gewerkt met programma's zoals Rstudio, Bash, Python?.
-
-Tijdens mijn zelfstudie werd ik gegrepen door de complexiteit van genomics-data-analyse en de mogelijkheid om nieuwe inzichten te verkrijgen over kanker. Mijn motivatie is gegroeid om bij te dragen aan dit belangrijke onderzoeksveld door het ontdekken van nieuwe behandelmogelijkheden.
-
-Wat mij bijzonder aanspreekt aan de Reuven Agami Oncogenomics Research Group is jullie innovatieve werk in het identificeren van zwakke plekken in kanker. Ik bewonder jullie inzet en baanbrekende resultaten in dit onderzoek.
-
-Met mijn passie voor oncogenomics, mijn leergierigheid en mijn vastberadenheid om bij te dragen aan kankeronderzoek, ben ik ervan overtuigd dat ik waardevol kan zijn als stagiair binnen jullie onderzoeksgroep.
-
-Ik kijk er enorm naar uit om mijn enthousiasme en leergierigheid te delen met de Reuven Agami Oncogenomics Research Group. Graag zou ik de mogelijkheid krijgen om mijn motivatie en ervaring persoonlijk toe te lichten tijdens een gesprek.
-
-Met vriendelijke groet,
-
-Filip Noyons  
-
----
-
-<!--chapter:end:Solicititatie_brief.Rmd-->
 
