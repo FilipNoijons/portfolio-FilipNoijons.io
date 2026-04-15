@@ -222,7 +222,9 @@ library(readxl)
 
 ```
 
-```{R}
+```{r, eval=FALSE}
+library(readxl)
+
 # Lees het excel file in
 C_elegans_data <- read_excel("~/portfolio/CE.LIQ.FLOW.062_Tidydata.xlsx")
 
