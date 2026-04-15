@@ -1,68 +1,127 @@
 # Curriculum Vitae
 
+## Profiel
+
+Gemotiveerde Life Sciences student met praktijkervaring in preklinisch kankeronderzoek, proefdierkunde en data science. Ik heb ervaring met in vivo knaagdiermodellen, experimenteel ontwerp en het analyseren van biologische data. Mijn interesses liggen op het snijvlak van biomedisch onderzoek, oncologie en reproduceerbare data-analyse. :contentReference[oaicite:1]{index=1}
+
 ## Persoonlijke gegevens
 
-- **Naam:** Filip Bastiaan Noijons
-- **Adres:** x
-- **Telefoon:** X
-- **E-mail:** FilipNoyons@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/filip-noijons-0073881b4/
-- **Geboortedatum:** 8 augustus 2000
+**Naam:** Filip Bastiaan Noijons  
+**Geboortedatum:** 08-08-2000  
+**Nationaliteit:** Nederlands  
 
-## Profielschets
+## Contact
 
-"Ik ben een vrolijke jongeman met een passie voor data sciences, vooral binnen het vakgebied van Zoology. Mijn expertise ligt in het werken met RStudio en bash, en ik heb ervaring opgedaan in projecten gerelateerd aan RNA sequencing en Metagenomics. Tijdens mijn studie heb ik ook vele uren in het lab doorgebracht, waar ik praktische ervaring heb opgedaan. Mijn focus op deze gebieden heeft mijn interesse in data-analyse aangewakkerd en me bekwaam gemaakt in het verkennen en interpreteren van complexe datasets. Ik zoek naar nieuwe uitdagingen om mijn passie en expertise in te zetten voor innovatieve projecten binnen uw organisatie."
+**E-mail:** Filipnoyons@gmail.com  
+**Telefoon:** 06 81940552  
+**Plaats:** Utrecht  
 
-## Opleidingen
+## Opleiding
 
-### Bachelor in Life Sciences
-- **Hogeschool:** HU, Utrecht
-- **Jaar:** 2020 - 2025
+### Bachelor Thesis – Netherlands Cancer Institute (NKI-AVL)
+**Life Sciences Hogeschool Utrecht**  
+**februari 2025 – november 2025**
 
-### Minor Data science for biology
-- **Hogeschool:** HU, utrecht 
-- **Jaar:** 2023
+Binnen mijn bachelorstage onderzocht ik de respons op endocriene therapie in intraductale T-47D borstkanker xenograftmodellen in muizen. Ik voerde behandelingen uit, monitorde tumorgroei, werkte met gerandomiseerde en geblindeerde studies en analyseerde onderzoeksdata. Daarnaast werkte ik samen met meerdere onderzoeksgroepen binnen de Preclinical Intervention Unit. :contentReference[oaicite:2]{index=2}
 
-### HAVO (hoger algemeen voortgezet onderwijs)
-- **School:** Spinoza lyceum, Amsterdam
-- **Jaar:** 2012 - 2017
+### Specialisatie Preclinical Animal Research (Zoology)
+**Life Sciences Hogeschool Utrecht**  
+**september 2024 – januari 2025**
+
+Binnen deze specialisatie volgde ik vakken in tumorbiologie, neurobiologie en laboratoriumdierkunde. Ik deed praktische ervaring op met injectietechnieken, anesthesie, chirurgische ondersteuning en experimenteel ontwerp, met nadruk op ethisch verantwoord dieronderzoek. Ik behaalde kwalificaties passend bij Artikel 13f en Artikel 9 van de Wet op de dierproeven. :contentReference[oaicite:3]{index=3}
+
+### Minor Data Science for Biology
+**Life Sciences Hogeschool Utrecht**  
+**februari 2023 – juli 2023**
+
+Tijdens deze minor werkte ik aan metagenomics-pipelines met Nanopore MinION-data, FASTQ kwaliteitscontrole, taxonomische classificatie met Kraken2 en Centrifuge, RNA-seq analyse, Bash, GitHub en reproduceerbare data workflows in R en R Markdown. :contentReference[oaicite:4]{index=4}
+
+### Bachelor of Applied Science – Life Sciences
+**Hogeschool Utrecht**  
+**2020 – heden**
+
+Binnen de opleiding heb ik brede laboratoriumervaring opgedaan in onder andere moleculaire biologie, microbiologie, immunologie en biomedisch onderzoek. :contentReference[oaicite:5]{index=5}
+
+### HAVO – Spinoza Lyceum
+**2012 – 2018**  
+Profiel: **Natuur en Gezondheid** :contentReference[oaicite:6]{index=6}
 
 ## Vaardigheden
 
-- **Programmeertalen:** Rstudio, Bash
-- **Tools:** Github, SQL, python
-- **Talen:** Nederlands, Engels
+### Data Science for Biology
+- R / RStudio
+- Bash / Linux
+- GitHub
+- RNA-seq analyse
+- Metagenomics analyse
+- Kraken2 / Centrifuge
+- Nanopore sequencing
+- FASTQ processing
+- R Markdown
+- Reproduceerbare research workflows :contentReference[oaicite:7]{index=7}
 
+### Preklinisch onderzoek en proefdierkunde
+- Hanteren en fixeren van muizen en ratten
+- Orale gavage
+- Intraperitoneale en subcutane injecties
+- Venapunctie en bloedafname
+- Isofluraan anesthesie
+- CO₂-euthanasie
+- Tumormetingen in xenograftmodellen
+- Monitoring van dierenwelzijn
+- Chirurgische assistentie en hechten
+- MRI
+- Preklinisch oncologisch onderzoek :contentReference[oaicite:8]{index=8}
 
 ## Werkervaring
 
-### Freelance
-- **Bedrijf:** Temper & staffyou, Utrecht
-- **Periode:** Mei - september 2023
-  
+### Student Driver
+**Fleetport Poolbeheer**  
+**2023 – heden**
 
-### Functie: Keukenhulp
-- **Bedrijf:** Marleenkookt, Amsterdam
-- **Periode:** januari - juni 2019
-  
-## Vrijwilligerswerk
-- **Bedrijf:** Marine conservation Philipines, Zamboanguita
-- **Periode:** september - December 2019 
-- **Taken:** Substrate surveys of the coral reefs along the southern coast of Negros island, mangrove planting and beach clean-ups 
+In deze functie ontwikkel ik organisatorische en logistieke vaardigheden, met verantwoordelijkheid voor planning, coördinatie en zorgvuldig voertuigbeheer. :contentReference[oaicite:9]{index=9}
 
+### Vrijwilliger
+**Marine Conservation Philippines**  
+**september 2019 – december 2019**
 
-## Projecten
+Tijdens dit vrijwilligerswerk heb ik koraalrif-substraatsurveys uitgevoerd langs de zuidkust van Negros Island. Daarnaast nam ik deel aan mangroveherstel en beach clean-up activiteiten. :contentReference[oaicite:10]{index=10}
 
-- **Projectnaam:**  Transdifferentiatie met ONECUT1
-- **Periode:** november 2023
-- **Programmeertalen/tools gebruikt:** Bash, Rstudio
+### Kitchen Assistant & Delivery Driver
+**MarleenKookt**  
+**januari 2019 – juli 2019** :contentReference[oaicite:11]{index=11}
 
+### Delivery Driver
+**Thuisbezorgd**  
+**februari 2018 – december 2018** :contentReference[oaicite:12]{index=12}
 
-- **Projectnaam:**  slootwater/metagenomics
-- **Periode:** november 2023
-- **Programmeertalen/tools gebruikt:** Bash, Rstudio, github, sql.
+## Competenties
 
+- Preklinisch in vivo onderzoek
+- Experimenteel ontwerp
+- Data-analyse en statistiek
+- Wetenschappelijke rapportage
+- Kritisch denken
+- Samenwerken in onderzoeksomgevingen
+- Zelfstandig onderzoek uitvoeren :contentReference[oaicite:13]{index=13}
 
+## Certificeringen
 
+- Article 13f (Wet op de dierproeven)
+- Article 9 (Wet op de dierproeven)
+- EFR Primary Care & Secondary Care
+- Rescue Diver
+- Enriched Air (Nitrox) Diver :contentReference[oaicite:14]{index=14}
 
+## Talen
 
+- Nederlands — moedertaal
+- Engels — vloeiend
+- Duits — basisniveau :contentReference[oaicite:15]{index=15}
+
+## Nevenactiviteiten
+
+### Fiscus — Unitas S.R.
+**2021 – 2022**
+
+Binnen deze commissie was ik verantwoordelijk voor financiële administratie, budgetplanning, uitgavenregistratie en afstemming met bestuur en commissieleden. :contentReference[oaicite:16]{index=16}
