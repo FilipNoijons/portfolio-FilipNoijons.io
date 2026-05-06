@@ -1,7 +1,16 @@
 book_filename: "Portfolio"
 output_dir: "docs"
+delete_merged_file: true
+new_session: yes
+
+rmd_files:
+  - "index.Rmd"
+  - "01_cv.Rmd"
+  - "02_looking_ahead.Rmd"
+  - "03_c_elegans.Rmd"
+  - "04_peer_review.Rmd"
+  - "05_Relational_databases.Rmd"
+
 language:
   ui:
     chapter_name: "Chapter"
-delete_merged_file: true
-new_Session: yes
