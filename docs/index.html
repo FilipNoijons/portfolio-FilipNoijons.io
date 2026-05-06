@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Portfolio Data Science for Biology</title>
+  <meta name="description" content="Portfolio Data Science for Biology" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Portfolio Data Science for Biology" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Portfolio Data Science for Biology" />
+  
+  
+  
+
+<meta name="author" content="Filip Noyons" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="curriculum-vitae.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welkom</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#portfolio-van-filip-noyons"><i class="fa fa-check"></i>Portfolio van Filip Noyons</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#over-dit-portfolio"><i class="fa fa-check"></i>Over dit portfolio</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#focus-van-mijn-ontwikkeling"><i class="fa fa-check"></i>Focus van mijn ontwikkeling</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#inhoud-van-de-website"><i class="fa fa-check"></i>Inhoud van de website</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#professionele-relevantie"><i class="fa fa-check"></i>Professionele relevantie</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#gebruik-van-bronnen-en-hulpmiddelen"><i class="fa fa-check"></i>Gebruik van bronnen en hulpmiddelen</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#navigatie"><i class="fa fa-check"></i>Navigatie</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html"><i class="fa fa-check"></i>Curriculum Vitae</a>
+<ul>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#profiel"><i class="fa fa-check"></i>Profiel</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#persoonlijke-gegevens"><i class="fa fa-check"></i>Persoonlijke gegevens</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#contact"><i class="fa fa-check"></i>Contact</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#opleiding"><i class="fa fa-check"></i>Opleiding</a>
+<ul>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#bachelor-thesis-netherlands-cancer-institute-nki-avl"><i class="fa fa-check"></i>Bachelor Thesis – Netherlands Cancer Institute (NKI-AVL)</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#specialisatie-preclinical-animal-research-zoology"><i class="fa fa-check"></i>Specialisatie Preclinical Animal Research (Zoology)</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#minor-data-science-for-biology"><i class="fa fa-check"></i>Minor Data Science for Biology</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#bachelor-of-applied-science-life-sciences"><i class="fa fa-check"></i>Bachelor of Applied Science – Life Sciences</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#havo-spinoza-lyceum"><i class="fa fa-check"></i>HAVO – Spinoza Lyceum</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#vaardigheden"><i class="fa fa-check"></i>Vaardigheden</a>
+<ul>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#data-science-for-biology"><i class="fa fa-check"></i>Data Science for Biology</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#preklinisch-onderzoek-en-proefdierkunde"><i class="fa fa-check"></i>Preklinisch onderzoek en proefdierkunde</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#werkervaring"><i class="fa fa-check"></i>Werkervaring</a>
+<ul>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#student-driver"><i class="fa fa-check"></i>Student Driver</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#vrijwilliger"><i class="fa fa-check"></i>Vrijwilliger</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#kitchen-assistant-delivery-driver"><i class="fa fa-check"></i>Kitchen Assistant &amp; Delivery Driver</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#delivery-driver"><i class="fa fa-check"></i>Delivery Driver</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#competenties"><i class="fa fa-check"></i>Competenties</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#certificeringen"><i class="fa fa-check"></i>Certificeringen</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#talen"><i class="fa fa-check"></i>Talen</a></li>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#nevenactiviteiten"><i class="fa fa-check"></i>Nevenactiviteiten</a>
+<ul>
+<li class="chapter" data-level="" data-path="curriculum-vitae.html"><a href="curriculum-vitae.html#fiscus-unitas-s.r."><i class="fa fa-check"></i>Fiscus — Unitas S.R.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html"><i class="fa fa-check"></i>Looking ahead</a>
+<ul>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-wil-ik-zijn-binnen-2-jaar"><i class="fa fa-check"></i>Waar wil ik zijn binnen 2 jaar?</a></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#een-nederlandse-organisatieinstelling-waar-ik-op-uit-kwam-was"><i class="fa fa-check"></i>Een Nederlandse organisatie/instelling waar ik op uit kwam was:</a></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#de-planning-om-mijn-vrije-opdracht-in-te-vullen"><i class="fa fa-check"></i>De planning om mijn vrije opdracht in te vullen</a>
+<ul>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-1-introductie-en-data-verzamelen-8-uur"><i class="fa fa-check"></i>Dag 1: Introductie en Data Verzamelen (8 uur)</a></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-2-data-voorbereiding-en-preprocessing-8-uur"><i class="fa fa-check"></i>Dag 2: Data Voorbereiding en Preprocessing (8 uur)</a></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-3-variant-calling-8-uur"><i class="fa fa-check"></i>Dag 3: Variant Calling (8 uur)</a></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#dag-4-variant-filtratie-en-annotation-8-uur"><i class="fa fa-check"></i>Dag 4: Variant Filtratie en Annotation (8 uur)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="looking-ahead.html"><a href="looking-ahead.html#waar-ik-stage-zou-gaan-lopen"><i class="fa fa-check"></i>Waar ik stage zou gaan lopen</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html"><i class="fa fa-check"></i>Peer review</a>
+<ul>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html#artikel-referentie"><i class="fa fa-check"></i>Artikel referentie:</a></li>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html#laden-van-juiste-packages"><i class="fa fa-check"></i>Laden van juiste packages</a></li>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html#maken-van-tabel-voor-peer-review-scores"><i class="fa fa-check"></i>Maken van tabel voor peer review scores</a></li>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html#peer-review-score-verklaring"><i class="fa fa-check"></i>Peer review score verklaring</a></li>
+<li class="chapter" data-level="" data-path="peer-review.html"><a href="peer-review.html#rapport-op-vindingen-uit-het-artikel"><i class="fa fa-check"></i>rapport op vindingen uit het artikel</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Portfolio Data Science for Biology</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Portfolio Data Science for Biology</h1>
+<p class="author"><em>Filip Noyons</em></p>
+<p class="date"><em>06 mei 2026</em></p>
+</div>
+<div id="welkom" class="section level1 unnumbered hasAnchor">
+<h1>Welkom<a href="index.html#welkom" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="portfolio-van-filip-noyons" class="section level2 hasAnchor hero-box">
+<h2>Portfolio van Filip Noyons<a href="index.html#portfolio-van-filip-noyons" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Welkom op mijn portfolio voor de cursus <em>Workflows</em> binnen de minor <em>Data Science for Biology</em>.<br />
+Op deze website presenteer ik een selectie van projecten, analyses en technische opdrachten waarin ik laat zien hoe ik biologische vraagstukken benader met reproduceerbare data-analyse, gestructureerd datamanagement en programmeervaardigheden in R en SQL.</p>
+<p>Dit portfolio is ontwikkeld als beoordelingsproduct, maar is daarnaast ook bedoeld als professioneel overzicht van mijn groei als toekomstig data-professional binnen de life sciences.</p>
+</div>
+<div id="over-dit-portfolio" class="section level2 hasAnchor">
+<h2>Over dit portfolio<a href="index.html#over-dit-portfolio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tijdens de cursus <em>Workflows</em> werk ik aan opdrachten die samen een beeld geven van mijn ontwikkeling op het gebied van <strong>Data Science for Biology</strong>. In dit portfolio laat ik niet alleen eindproducten zien, maar ook hoe ik te werk ga: van het structureren van bestanden en het documenteren van analyses tot het bouwen van reproduceerbare rapportages en het ontwikkelen van een eigen R package.</p>
+<p>De website is opgebouwd met <strong>bookdown</strong>, versiebeheer wordt uitgevoerd met <strong>Git</strong> en <strong>GitHub</strong>, en publicatie verloopt via <strong>GitHub Pages</strong>. Daarmee is dit portfolio zelf ook een voorbeeld van een reproduceerbare en transparante workflow.</p>
+</div>
+<div id="focus-van-mijn-ontwikkeling" class="section level2 hasAnchor">
+<h2>Focus van mijn ontwikkeling<a href="index.html#focus-van-mijn-ontwikkeling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Binnen dit portfolio staat de combinatie van biologische context en data-analyse centraal. Ik werk aan vaardigheden die relevant zijn voor verdere studie, stage en toekomstige functies binnen bio-informatica en data science, waaronder:</p>
+<ul>
+<li>reproduceerbaar werken met R Markdown en bookdown;</li>
+<li>data management volgens duidelijke en consistente structuurprincipes;</li>
+<li>visualisatie en interpretatie van experimentele data;</li>
+<li>werken met relationele databases en SQL;</li>
+<li>package development in R;</li>
+<li>correct verwijzen naar wetenschappelijke en technische bronnen;</li>
+<li>zelfstandig verdiepen in nieuwe methoden en tools.</li>
+</ul>
+</div>
+<div id="inhoud-van-de-website" class="section level2 hasAnchor">
+<h2>Inhoud van de website<a href="index.html#inhoud-van-de-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>De verschillende pagina’s van dit portfolio behandelen onder andere:</p>
+<ul>
+<li>een professioneel curriculum vitae;</li>
+<li>een toekomstplan gericht op mijn verdere ontwikkeling binnen Data Science for Biology;</li>
+<li>een vrije opdracht waarin ik zelfstandig een nieuwe skill uitwerk;</li>
+<li>toepassingen van datamanagement op biologische datasets en projectmappen;</li>
+<li>reproduceerbare analyses van experimentele data;</li>
+<li>een beoordeling van de reproduceerbaarheid van wetenschappelijke code;</li>
+<li>SQL-toepassingen voor het combineren en analyseren van datasets;</li>
+<li>documentatie van een zelfontwikkeld R package;</li>
+<li>bronvermelding volgens wetenschappelijke conventies;</li>
+<li>een geparametriseerd R Markdown rapport.</li>
+</ul>
+<p>Ik heb deze onderdelen bewust uitgewerkt als inhoudelijke portfolio-onderdelen en niet als losse schoolopdrachten, zodat de website een samenhangend en professioneel geheel vormt.</p>
+</div>
+<div id="professionele-relevantie" class="section level2 hasAnchor">
+<h2>Professionele relevantie<a href="index.html#professionele-relevantie" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Dit portfolio is bedoeld als weerspiegeling van mijn technische vaardigheden én mijn manier van werken. Ik wil laten zien dat ik niet alleen analyses kan uitvoeren, maar ook zorgvuldig kan documenteren, resultaten helder kan presenteren en mijn werk reproduceerbaar kan organiseren.</p>
+<p>Daarmee vormt dit portfolio een basis die ik verder wil uitbreiden met toekomstige projecten, stages en professionele ervaringen.</p>
+</div>
+<div id="gebruik-van-bronnen-en-hulpmiddelen" class="section level2 hasAnchor">
+<h2>Gebruik van bronnen en hulpmiddelen<a href="index.html#gebruik-van-bronnen-en-hulpmiddelen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bij de ontwikkeling van dit portfolio maak ik gebruik van cursusmateriaal, documentatie, wetenschappelijke literatuur en technische online bronnen. Wanneer ik gebruikmaak van externe templates, codevoorbeelden of generatieve AI ter ondersteuning van schrijven, structureren of debuggen, vermeld ik dat expliciet op de relevante pagina of in een toelichting binnen het portfolio.</p>
+<p>De inhoud, interpretaties en uitwerking van het portfolio zijn mijn eigen verantwoordelijkheid.</p>
+</div>
+<div id="navigatie" class="section level2 hasAnchor">
+<h2>Navigatie<a href="index.html#navigatie" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Via het menu aan de linkerzijde zijn de verschillende onderdelen van dit portfolio te bekijken. Samen geven deze pagina’s een overzicht van mijn kennis, technische vaardigheden en ontwikkeling binnen het vakgebied <strong>Data Science for Biology</strong>.</p>
+<div class="closing-note">
+<p>Veel leesplezier.</p>
+</div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="curriculum-vitae.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

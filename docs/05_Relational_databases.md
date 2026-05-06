@@ -1,0 +1,36 @@
+#relational databases
+
+TIPS
+
+Be aware, the flu and dengue data contains metadata that should be stripped from the data on load.
+Think of a way to create valid country names that fit with the gapminder data.
+Remember (!) that in the end, this assignment needs to be reported by a .Rmd file for your portfolio. So save what you are doing, save your SQL scripts, make screenshots if you want, and in general design a clear and attractive report in RMarkdown to showcase your SQL/database-skills in your portfolio. You may be sending this to propspective employers in the future! (also, the portfolio is what we as teachers will be grading. But definitely think about the future rather than only about “passing the course”)
+Assignment
+
+Load the flu (in the github repo for this course: https://github.com/DataScienceILC/tlsc-dsfb26v-20_workflows go to ./data/flu_data.csv), the dengue (“./data/dengue_data.csv) and the gapminder ({dslabs} package) into three separate dataframes in R
+
+Check if they are in the right shape. Is the data in the ‘tidy’ format? If not change the format to ‘tidy’
+
+Change the country and date variables of the three tables so that they coincide in terms of data type, class and values
+
+Store the three tables as separate (so six in total) .csv and .rds files.
+
+In Dbeaver create a new PostgreSQL database “workflowsdb”
+
+Using RPostgreSQL, insert the tables into the database.
+
+Inspect the contents of the tables with SQL (in DBeaver) and save the SQL script.
+
+Inspect the contents of the tables with dplyr (in R) and save a RMarkdown showing what you are doing.
+
+Load the gapminder data in R and change the dataframe in such as way that you could join it to dengue and flue.
+
+Save this clean gapminder data in the “workflowsdb” database
+
+Perform some joins (your choice) with SQL (can be done in DBeaver or with dplyr.
+
+Generate a joined table, and export this from the database to R.
+
+Show some descriptive statistics with this table, and at least 3 visualisations using ggplot2.
+
+Write a short report to show at least te actions listed in this assignment in a Rmd file for your portfolio. Include pictures and provide text explaining and showcasing your skills.

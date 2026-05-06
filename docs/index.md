@@ -1,0 +1,79 @@
+---
+title: "Portfolio Data Science for Biology"
+author: "Filip Noyons"
+date: "06 mei 2026"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    css: style.css
+    number_sections: false
+documentclass: book
+---
+
+# Welkom {-}
+
+<div class="hero-box">
+
+## Portfolio van Filip Noyons
+
+Welkom op mijn portfolio voor de cursus *Workflows* binnen de minor *Data Science for Biology*.  
+Op deze website presenteer ik een selectie van projecten, analyses en technische opdrachten waarin ik laat zien hoe ik biologische vraagstukken benader met reproduceerbare data-analyse, gestructureerd datamanagement en programmeervaardigheden in R en SQL.
+
+Dit portfolio is ontwikkeld als beoordelingsproduct, maar is daarnaast ook bedoeld als professioneel overzicht van mijn groei als toekomstig data-professional binnen de life sciences.
+
+</div>
+
+## Over dit portfolio
+
+Tijdens de cursus *Workflows* werk ik aan opdrachten die samen een beeld geven van mijn ontwikkeling op het gebied van **Data Science for Biology**. In dit portfolio laat ik niet alleen eindproducten zien, maar ook hoe ik te werk ga: van het structureren van bestanden en het documenteren van analyses tot het bouwen van reproduceerbare rapportages en het ontwikkelen van een eigen R package.
+
+De website is opgebouwd met **bookdown**, versiebeheer wordt uitgevoerd met **Git** en **GitHub**, en publicatie verloopt via **GitHub Pages**. Daarmee is dit portfolio zelf ook een voorbeeld van een reproduceerbare en transparante workflow.
+
+## Focus van mijn ontwikkeling
+
+Binnen dit portfolio staat de combinatie van biologische context en data-analyse centraal. Ik werk aan vaardigheden die relevant zijn voor verdere studie, stage en toekomstige functies binnen bio-informatica en data science, waaronder:
+
+- reproduceerbaar werken met R Markdown en bookdown;
+- data management volgens duidelijke en consistente structuurprincipes;
+- visualisatie en interpretatie van experimentele data;
+- werken met relationele databases en SQL;
+- package development in R;
+- correct verwijzen naar wetenschappelijke en technische bronnen;
+- zelfstandig verdiepen in nieuwe methoden en tools.
+
+## Inhoud van de website
+
+De verschillende pagina’s van dit portfolio behandelen onder andere:
+
+- een professioneel curriculum vitae;
+- een toekomstplan gericht op mijn verdere ontwikkeling binnen Data Science for Biology;
+- een vrije opdracht waarin ik zelfstandig een nieuwe skill uitwerk;
+- toepassingen van datamanagement op biologische datasets en projectmappen;
+- reproduceerbare analyses van experimentele data;
+- een beoordeling van de reproduceerbaarheid van wetenschappelijke code;
+- SQL-toepassingen voor het combineren en analyseren van datasets;
+- documentatie van een zelfontwikkeld R package;
+- bronvermelding volgens wetenschappelijke conventies;
+- een geparametriseerd R Markdown rapport.
+
+Ik heb deze onderdelen bewust uitgewerkt als inhoudelijke portfolio-onderdelen en niet als losse schoolopdrachten, zodat de website een samenhangend en professioneel geheel vormt.
+
+## Professionele relevantie
+
+Dit portfolio is bedoeld als weerspiegeling van mijn technische vaardigheden én mijn manier van werken. Ik wil laten zien dat ik niet alleen analyses kan uitvoeren, maar ook zorgvuldig kan documenteren, resultaten helder kan presenteren en mijn werk reproduceerbaar kan organiseren.
+
+Daarmee vormt dit portfolio een basis die ik verder wil uitbreiden met toekomstige projecten, stages en professionele ervaringen.
+
+## Gebruik van bronnen en hulpmiddelen
+
+Bij de ontwikkeling van dit portfolio maak ik gebruik van cursusmateriaal, documentatie, wetenschappelijke literatuur en technische online bronnen. Wanneer ik gebruikmaak van externe templates, codevoorbeelden of generatieve AI ter ondersteuning van schrijven, structureren of debuggen, vermeld ik dat expliciet op de relevante pagina of in een toelichting binnen het portfolio.
+
+De inhoud, interpretaties en uitwerking van het portfolio zijn mijn eigen verantwoordelijkheid.
+
+## Navigatie
+
+Via het menu aan de linkerzijde zijn de verschillende onderdelen van dit portfolio te bekijken. Samen geven deze pagina’s een overzicht van mijn kennis, technische vaardigheden en ontwikkeling binnen het vakgebied **Data Science for Biology**.
+
+<div class="closing-note">
+Veel leesplezier.
+</div>
